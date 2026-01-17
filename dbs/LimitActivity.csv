@@ -1,0 +1,13 @@
+region,period,tech_or_group,operator,activity,units,notes,data_source,dq_cred,dq_geog,dq_struc,dq_tech,dq_time,data_id
+ON,2025,F_IMP_GSL,le,0,,,,,,,,,INDHRON001
+ON,2030,F_IMP_GSL,le,0,,,,,,,,,INDHRON001
+ON,2035,F_IMP_GSL,le,0,,,,,,,,,INDHRON001
+ON,2040,F_IMP_GSL,le,0,,,,,,,,,INDHRON001
+ON,2045,F_IMP_GSL,le,0,,,,,,,,,INDHRON001
+ON,2050,F_IMP_GSL,le,0,,,,,,,,,INDHRON001
+ON,2025,F_IMP_DSL,le,0,,,,,,,,,INDHRON001
+ON,2030,F_IMP_DSL,le,0,,,,,,,,,INDHRON001
+ON,2035,F_IMP_DSL,le,0,,,,,,,,,INDHRON001
+ON,2040,F_IMP_DSL,le,0,,,,,,,,,INDHRON001
+ON,2045,F_IMP_DSL,le,0,,,,,,,,,INDHRON001
+ON,2050,F_IMP_DSL,le,0,,,,,,,,,INDHRON001

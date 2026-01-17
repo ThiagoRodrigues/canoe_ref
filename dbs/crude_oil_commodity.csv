@@ -1,0 +1,10 @@
+﻿name,flag,description,data_id
+F_co,a,Crude oil,FUELHR001
+I_co,a,Crude oil in the industrial sector ,INDHR001
+F_others,w,Petrochemicals,FUELHR001
+F_oil,wa,Heating oil ,FUELHR001
+F_hfo,wa,Heavy fuel oil,FUELHR001
+F_pcoke,wa,Petroleum coke,FUELHR001
+F_gsl,wa,Gasoline,FUELHR001
+F_dsl,wa,Diesel,FUELHR001
+F_jtf,wa,Kerosene (Jet fuel),FUELHR001

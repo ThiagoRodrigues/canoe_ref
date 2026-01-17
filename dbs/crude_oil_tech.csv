@@ -1,0 +1,3 @@
+﻿tech,flag,sector,category,sub_category,unlim_cap,annual,reserve,curtail,retire,flex,exchange,seas_stor,description,data_id
+F_IMP_CO,p,fuel,fuel importer,,1,1,0,0,0,0,0,0,Crude oil importer,FUELHR001
+F_I_CO,p,industrial,fuel distribution,,1,1,0,0,0,0,0,0,Crude oil distribution to industrial sector,INDHR001

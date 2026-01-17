@@ -1,0 +1,7 @@
+﻿input_comm,input_description,input_flow,input_unit
+I_elc,Electricity,400000,BTU/bbl
+I_ng,Natural Gas,800000,BTU/bbl
+I_hfo,Heating Fuel Oil,300000,BTU/bbl
+I_pcoke,Petroleum Coke,100000,BTU/bbl
+I_ngl,Natural Gas Liquids,100000,BTU/bbl
+I_co,Crude Oil (inherent),5600000,BTU/bbl

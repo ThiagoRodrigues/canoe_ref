@@ -1,0 +1,8 @@
+﻿output_comm,output_description,output_flow,output_unit
+F_gsl,Gasoline,2500000,BTU/bbl
+F_dsl,Diesel,1000000,BTU/bbl
+F_jtf,Jet Fuel,600000,BTU/bbl
+F_oil,Heating Oil,300000,BTU/bbl
+F_hfo,Heavy Fuel Oil,200000,BTU/bbl
+F_pcoke,Petroleum Coke,100000,BTU/bbl
+F_others,Others,200000,BTU/bbl

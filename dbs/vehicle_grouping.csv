@@ -1,0 +1,277 @@
+﻿group_name,tech,output_comm,mode,demand_type,unit,fuel_type_1,fuel_type_2,vehicle_type,zev_class,status
+Existing_HDV,T_HDV_AJF_JFL_EX,T_D_tkm_hdv_aj,Aircraft,tkm,btkm-year,jtf,NONE,ice,non-zev,Existing
+HDV,T_HDV_AJF_JFL_N,T_D_tkm_hdv_aj,Aircraft,tkm,btkm-year,jtf,NONE,ice,non-zev,new
+HDV ICE,T_HDV_AJF_JFL_N,T_D_tkm_hdv_aj,Aircraft,tkm,btkm-year,jtf,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_AJF_JFL_N,T_D_tkm_hdv_aj,Aircraft,tkm,btkm-year,jtf,NONE,ice,non-zev,new
+HDV,T_HDV_AJF_SPK_N,T_D_tkm_hdv_aj,Aircraft,tkm,btkm-year,spk,NONE,ice,non-zev,new
+HDV REN,T_HDV_AJF_SPK_N,T_D_tkm_hdv_aj,Aircraft,tkm,btkm-year,spk,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_AJF_SPK_N,T_D_tkm_hdv_aj,Aircraft,tkm,btkm-year,spk,NONE,ice,non-zev,new
+Existing_HDV,T_HDV_AJP_JFL_EX,T_D_pkm_hdv_aj,Aircraft,pkm,bpkm-year,jtf,NONE,ice,non-zev,Existing
+HDV,T_HDV_AJP_JFL_N,T_D_pkm_hdv_aj,Aircraft,pkm,bpkm-year,jtf,NONE,ice,non-zev,new
+HDV ICE,T_HDV_AJP_JFL_N,T_D_pkm_hdv_aj,Aircraft,pkm,bpkm-year,jtf,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_AJP_JFL_N,T_D_pkm_hdv_aj,Aircraft,pkm,bpkm-year,jtf,NONE,ice,non-zev,new
+HDV,T_HDV_AJP_SPK_N,T_D_pkm_hdv_aj,Aircraft,pkm,bpkm-year,spk,NONE,ice,non-zev,new
+HDV REN,T_HDV_AJP_SPK_N,T_D_pkm_hdv_aj,Aircraft,pkm,bpkm-year,spk,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_AJP_SPK_N,T_D_pkm_hdv_aj,Aircraft,pkm,bpkm-year,spk,NONE,ice,non-zev,new
+HDV,T_HDV_BIC_BEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,elc,NONE,BEV,zev,new
+HDV elc,T_HDV_BIC_BEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,elc,NONE,BEV,zev,new
+HDV ZEV,T_HDV_BIC_BEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,elc,NONE,BEV,zev,new
+Existing_HDV,T_HDV_BIC_DSL_EX,T_D_pkm_hdv_bic,Bus,pkm,k units,dsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_BIC_DSL_HEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV hyb,T_HDV_BIC_DSL_HEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV N-ZEV,T_HDV_BIC_DSL_HEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV,T_HDV_BIC_DSL_N,T_D_pkm_hdv_bic,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_BIC_DSL_N,T_D_pkm_hdv_bic,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_BIC_DSL_N,T_D_pkm_hdv_bic,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV,T_HDV_BIC_FCEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV H2,T_HDV_BIC_FCEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV ZEV,T_HDV_BIC_FCEV_N,T_D_pkm_hdv_bic,Bus,pkm,k units,h2,NONE,h2,zev,new
+Existing_HDV,T_HDV_BIC_GSL_EX,T_D_pkm_hdv_bic,Bus,pkm,k units,gsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_BIC_GSL_N,T_D_pkm_hdv_bic,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_BIC_GSL_N,T_D_pkm_hdv_bic,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_BIC_GSL_N,T_D_pkm_hdv_bic,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+HDV,T_HDV_BS_BEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,elc,NONE,BEV,zev,new
+HDV elc,T_HDV_BS_BEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,elc,NONE,BEV,zev,new
+HDV ZEV,T_HDV_BS_BEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,elc,NONE,BEV,zev,new
+Existing_HDV,T_HDV_BS_CNG_EX,T_D_pkm_hdv_bs,Bus,pkm,k units,cng,NONE,ice,non-zev,Existing
+HDV,T_HDV_BS_CNG_N,T_D_pkm_hdv_bs,Bus,pkm,k units,cng,NONE,ice,non-zev,new
+HDV ICE,T_HDV_BS_CNG_N,T_D_pkm_hdv_bs,Bus,pkm,k units,cng,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_BS_CNG_N,T_D_pkm_hdv_bs,Bus,pkm,k units,cng,NONE,ice,non-zev,new
+Existing_HDV,T_HDV_BS_DSL_EX,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_BS_DSL_HEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV hyb,T_HDV_BS_DSL_HEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV N-ZEV,T_HDV_BS_DSL_HEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV,T_HDV_BS_DSL_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_BS_DSL_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_BS_DSL_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV,T_HDV_BS_DSL_PHEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV PHEV,T_HDV_BS_DSL_PHEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV ZEV,T_HDV_BS_DSL_PHEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV,T_HDV_BS_FCEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV H2,T_HDV_BS_FCEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV ZEV,T_HDV_BS_FCEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV,T_HDV_BS_FCHEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV hyb,T_HDV_BS_FCHEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV N-ZEV,T_HDV_BS_FCHEV_N,T_D_pkm_hdv_bs,Bus,pkm,k units,h2,NONE,h2,zev,new
+Existing_HDV,T_HDV_BS_GSL_EX,T_D_pkm_hdv_bs,Bus,pkm,k units,gsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_BS_GSL_N,T_D_pkm_hdv_bs,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_BS_GSL_N,T_D_pkm_hdv_bs,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_BS_GSL_N,T_D_pkm_hdv_bs,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+Existing_HDV,T_HDV_BT_BEV_EX,T_D_pkm_hdv_bt,Bus,pkm,k units,elc,NONE,BEV,zev,Existing
+HDV,T_HDV_BT_BEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,elc,NONE,BEV,zev,new
+HDV elc,T_HDV_BT_BEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,elc,NONE,BEV,zev,new
+HDV ZEV,T_HDV_BT_BEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,elc,NONE,BEV,zev,new
+Existing_HDV,T_HDV_BT_CNG_EX,T_D_pkm_hdv_bt,Bus,pkm,k units,cng,NONE,ice,non-zev,Existing
+HDV,T_HDV_BT_CNG_N,T_D_pkm_hdv_bt,Bus,pkm,k units,cng,NONE,ice,non-zev,new
+HDV ICE,T_HDV_BT_CNG_N,T_D_pkm_hdv_bt,Bus,pkm,k units,cng,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_BT_CNG_N,T_D_pkm_hdv_bt,Bus,pkm,k units,cng,NONE,ice,non-zev,new
+Existing_HDV,T_HDV_BT_DSL_EX,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_BT_DSL_HEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV hyb,T_HDV_BT_DSL_HEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV N-ZEV,T_HDV_BT_DSL_HEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,elc,hyb,non-zev,new
+HDV,T_HDV_BT_DSL_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_BT_DSL_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_BT_DSL_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,NONE,ice,non-zev,new
+HDV,T_HDV_BT_DSL_PHEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV PHEV,T_HDV_BT_DSL_PHEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV ZEV,T_HDV_BT_DSL_PHEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV,T_HDV_BT_FCEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV H2,T_HDV_BT_FCEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV ZEV,T_HDV_BT_FCEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV,T_HDV_BT_FCHEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV hyb,T_HDV_BT_FCHEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,h2,NONE,h2,zev,new
+HDV N-ZEV,T_HDV_BT_FCHEV_N,T_D_pkm_hdv_bt,Bus,pkm,k units,h2,NONE,h2,zev,new
+Existing_HDV,T_HDV_BT_GSL_EX,T_D_pkm_hdv_bt,Bus,pkm,k units,gsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_BT_GSL_N,T_D_pkm_hdv_bt,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_BT_GSL_N,T_D_pkm_hdv_bt,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_BT_GSL_N,T_D_pkm_hdv_bt,Bus,pkm,k units,gsl,NONE,ice,non-zev,new
+Existing_HDV,T_HDV_RF_DSL_EX,T_D_tkm_hdv_r,Rail,tkm,btkm-year,dsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_RF_DSL_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,dsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_RF_DSL_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,dsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_RF_DSL_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,dsl,NONE,ice,non-zev,new
+HDV,T_HDV_RF_H2_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,h2,NONE,h2,zev,new
+HDV H2,T_HDV_RF_H2_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,h2,NONE,h2,zev,new
+HDV ZEV,T_HDV_RF_H2_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,h2,NONE,h2,zev,new
+HDV,T_HDV_RF_LNG_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,lng,NONE,ice,non-zev,new
+HDV ICE,T_HDV_RF_LNG_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,lng,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_RF_LNG_N,T_D_tkm_hdv_r,Rail,tkm,btkm-year,lng,NONE,ice,non-zev,new
+Existing_HDV,T_HDV_RICP_DSL_EX,T_D_pkm_hdv_r,Rail,pkm,bpkm-year,dsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_RICP_DSL_N,T_D_pkm_hdv_r,Rail,pkm,bpkm-year,dsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_RICP_DSL_N,T_D_pkm_hdv_r,Rail,pkm,bpkm-year,dsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_RICP_DSL_N,T_D_pkm_hdv_r,Rail,pkm,bpkm-year,dsl,NONE,ice,non-zev,new
+HDV,T_HDV_RICP_H2_N,T_D_pkm_hdv_r,Rail,pkm,bpkm-year,h2,NONE,h2,zev,new
+HDV H2,T_HDV_RICP_H2_N,T_D_pkm_hdv_r,Rail,pkm,bpkm-year,h2,NONE,h2,zev,new
+HDV ZEV,T_HDV_RICP_H2_N,T_D_pkm_hdv_r,Rail,pkm,bpkm-year,h2,NONE,h2,zev,new
+HDV,T_HDV_T_BEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,elc,NONE,BEV,zev,new
+HDV elc,T_HDV_T_BEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,elc,NONE,BEV,zev,new
+HDV ZEV,T_HDV_T_BEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,elc,NONE,BEV,zev,new
+Existing_HDV,T_HDV_T_DSL_EX,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,NONE,ice,non-zev,Existing
+HDV,T_HDV_T_DSL_HEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,elc,hyb,non-zev,new
+HDV hyb,T_HDV_T_DSL_HEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,elc,hyb,non-zev,new
+HDV N-ZEV,T_HDV_T_DSL_HEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,elc,hyb,non-zev,new
+HDV,T_HDV_T_DSL_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,NONE,ice,non-zev,new
+HDV ICE,T_HDV_T_DSL_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_T_DSL_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,NONE,ice,non-zev,new
+HDV,T_HDV_T_DSL_PHEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV PHEV,T_HDV_T_DSL_PHEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV ZEV,T_HDV_T_DSL_PHEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,dsl,elc,plug_in hyb,zev,new
+HDV,T_HDV_T_FCEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,h2,NONE,h2,zev,new
+HDV H2,T_HDV_T_FCEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,h2,NONE,h2,zev,new
+HDV ZEV,T_HDV_T_FCEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,h2,NONE,h2,zev,new
+HDV,T_HDV_T_FCHEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,h2,NONE,h2,zev,new
+HDV hyb,T_HDV_T_FCHEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,h2,NONE,h2,zev,new
+HDV N-ZEV,T_HDV_T_FCHEV_N,T_D_tkm_hdv_t,Trucks (HDV & MDV),tkm,k units,h2,NONE,h2,zev,new
+Existing_HDV,T_HDV_WTF_HFO_EX,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,hfo,NONE,ice,non-zev,Existing
+HDV,T_HDV_WTF_HFO_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,hfo,NONE,ice,non-zev,new
+HDV ICE,T_HDV_WTF_HFO_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,hfo,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_WTF_HFO_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,hfo,NONE,ice,non-zev,new
+HDV,T_HDV_WTF_LNG_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,lng,NONE,ice,non-zev,new
+HDV ICE,T_HDV_WTF_LNG_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,lng,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_WTF_LNG_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,lng,NONE,ice,non-zev,new
+Existing_HDV,T_HDV_WTF_MDO_EX,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,mdo,NONE,ice,non-zev,Existing
+HDV,T_HDV_WTF_MDO_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,mdo,NONE,ice,non-zev,new
+HDV ICE,T_HDV_WTF_MDO_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,mdo,NONE,ice,non-zev,new
+HDV N-ZEV,T_HDV_WTF_MDO_N,T_D_tkm_hdv_wt,Boats,tkm,btkm-year,mdo,NONE,ice,non-zev,new
+Existing_LDV,T_LDV_C_BEV150_EX,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,Existing
+LDV,T_LDV_C_BEV150_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_C_BEV150_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_C_BEV150_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_C_BEV200_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_C_BEV200_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_C_BEV200_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_C_BEV300_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_C_BEV300_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_C_BEV300_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_C_BEV400_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_C_BEV400_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_C_BEV400_N,T_D_pkm_ldv_c,Cars,pkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_C_CNG_N,T_D_pkm_ldv_c,Cars,pkm,k units,cng,NONE,ice,non-zev,new
+LDV ICE,T_LDV_C_CNG_N,T_D_pkm_ldv_c,Cars,pkm,k units,cng,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_C_CNG_N,T_D_pkm_ldv_c,Cars,pkm,k units,cng,NONE,ice,non-zev,new
+Existing_LDV,T_LDV_C_DSL_EX,T_D_pkm_ldv_c,Cars,pkm,k units,dsl,NONE,ice,non-zev,Existing
+LDV,T_LDV_C_DSL_N,T_D_pkm_ldv_c,Cars,pkm,k units,dsl,NONE,ice,non-zev,new
+LDV ICE,T_LDV_C_DSL_N,T_D_pkm_ldv_c,Cars,pkm,k units,dsl,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_C_DSL_N,T_D_pkm_ldv_c,Cars,pkm,k units,dsl,NONE,ice,non-zev,new
+LDV,T_LDV_C_FCEV400_N,T_D_pkm_ldv_c,Cars,pkm,k units,h2,NONE,h2,zev,new
+LDV H2,T_LDV_C_FCEV400_N,T_D_pkm_ldv_c,Cars,pkm,k units,h2,NONE,h2,zev,new
+LDV ZEV,T_LDV_C_FCEV400_N,T_D_pkm_ldv_c,Cars,pkm,k units,h2,NONE,h2,zev,new
+Existing_LDV,T_LDV_C_GSL_EX,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,NONE,ice,non-zev,Existing
+Existing_LDV,T_LDV_C_GSL_HEV_EX,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,hyb,non-zev,Existing
+LDV,T_LDV_C_GSL_HEV_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,hyb,non-zev,new
+LDV hyb,T_LDV_C_GSL_HEV_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,hyb,non-zev,new
+LDV N-ZEV,T_LDV_C_GSL_HEV_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,hyb,non-zev,new
+LDV,T_LDV_C_GSL_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,NONE,ice,non-zev,new
+LDV ICE,T_LDV_C_GSL_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_C_GSL_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,NONE,ice,non-zev,new
+Existing_LDV,T_LDV_C_GSL_PHEV35_EX,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,plug_in hyb,zev,Existing
+LDV,T_LDV_C_GSL_PHEV35_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV PHEV,T_LDV_C_GSL_PHEV35_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV ZEV,T_LDV_C_GSL_PHEV35_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV,T_LDV_C_GSL_PHEV50_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV PHEV,T_LDV_C_GSL_PHEV50_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV ZEV,T_LDV_C_GSL_PHEV50_N,T_D_pkm_ldv_c,Cars,pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV,T_LDV_LTF_BEV150_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_LTF_BEV150_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_LTF_BEV150_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_LTF_BEV200_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_LTF_BEV200_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_LTF_BEV200_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_LTF_BEV300_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_LTF_BEV300_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_LTF_BEV300_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_LTF_BEV400_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_LTF_BEV400_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_LTF_BEV400_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_LTF_CNG_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,cng,NONE,ice,non-zev,new
+LDV ICE,T_LDV_LTF_CNG_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,cng,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_LTF_CNG_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,cng,NONE,ice,non-zev,new
+Existing_LDV,T_LDV_LTF_DSL_EX,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,dsl,NONE,ice,non-zev,Existing
+LDV,T_LDV_LTF_DSL_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,dsl,NONE,ice,non-zev,new
+LDV ICE,T_LDV_LTF_DSL_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,dsl,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_LTF_DSL_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,dsl,NONE,ice,non-zev,new
+LDV,T_LDV_LTF_FCEV400_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,h2,NONE,h2,zev,new
+LDV H2,T_LDV_LTF_FCEV400_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,h2,NONE,h2,zev,new
+LDV ZEV,T_LDV_LTF_FCEV400_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,h2,NONE,h2,zev,new
+Existing_LDV,T_LDV_LTF_GSL_EX,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,NONE,ice,non-zev,Existing
+Existing_LDV,T_LDV_LTF_GSL_HEV_EX,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,hyb,non-zev,Existing
+LDV,T_LDV_LTF_GSL_HEV_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,hyb,non-zev,new
+LDV hyb,T_LDV_LTF_GSL_HEV_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,hyb,non-zev,new
+LDV N-ZEV,T_LDV_LTF_GSL_HEV_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,hyb,non-zev,new
+LDV,T_LDV_LTF_GSL_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,NONE,ice,non-zev,new
+LDV ICE,T_LDV_LTF_GSL_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_LTF_GSL_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,NONE,ice,non-zev,new
+Existing_LDV,T_LDV_LTF_GSL_PHEV35_EX,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,plug_in hyb,zev,Existing
+LDV,T_LDV_LTF_GSL_PHEV35_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV PHEV,T_LDV_LTF_GSL_PHEV35_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV ZEV,T_LDV_LTF_GSL_PHEV35_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV,T_LDV_LTF_GSL_PHEV50_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV PHEV,T_LDV_LTF_GSL_PHEV50_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV ZEV,T_LDV_LTF_GSL_PHEV50_N,T_D_tkm_ldv_t,Trucks (LDV),tkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV,T_LDV_LTP_BEV150_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_LTP_BEV150_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_LTP_BEV150_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_LTP_BEV200_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_LTP_BEV200_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_LTP_BEV200_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+Existing_LDV,T_LDV_LTP_BEV300_EX,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,Existing
+LDV,T_LDV_LTP_BEV300_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_LTP_BEV300_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_LTP_BEV300_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_LTP_BEV400_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_LTP_BEV400_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_LTP_BEV400_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,elc,NONE,BEV,zev,new
+LDV,T_LDV_LTP_CNG_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,cng,NONE,ice,non-zev,new
+LDV ICE,T_LDV_LTP_CNG_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,cng,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_LTP_CNG_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,cng,NONE,ice,non-zev,new
+Existing_LDV,T_LDV_LTP_DSL_EX,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,dsl,NONE,ice,non-zev,Existing
+LDV,T_LDV_LTP_DSL_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,dsl,NONE,ice,non-zev,new
+LDV ICE,T_LDV_LTP_DSL_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,dsl,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_LTP_DSL_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,dsl,NONE,ice,non-zev,new
+LDV,T_LDV_LTP_FCEV400_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,h2,NONE,h2,zev,new
+LDV H2,T_LDV_LTP_FCEV400_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,h2,NONE,h2,zev,new
+LDV ZEV,T_LDV_LTP_FCEV400_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,h2,NONE,h2,zev,new
+Existing_LDV,T_LDV_LTP_GSL_EX,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,NONE,ice,non-zev,Existing
+Existing_LDV,T_LDV_LTP_GSL_HEV_EX,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,hyb,non-zev,Existing
+LDV,T_LDV_LTP_GSL_HEV_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,hyb,non-zev,new
+LDV hyb,T_LDV_LTP_GSL_HEV_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,hyb,non-zev,new
+LDV N-ZEV,T_LDV_LTP_GSL_HEV_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,hyb,non-zev,new
+LDV,T_LDV_LTP_GSL_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,NONE,ice,non-zev,new
+LDV ICE,T_LDV_LTP_GSL_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_LTP_GSL_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,NONE,ice,non-zev,new
+Existing_LDV,T_LDV_LTP_GSL_PHEV35_EX,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,plug_in hyb,zev,Existing
+LDV,T_LDV_LTP_GSL_PHEV35_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV PHEV,T_LDV_LTP_GSL_PHEV35_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV ZEV,T_LDV_LTP_GSL_PHEV35_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV,T_LDV_LTP_GSL_PHEV50_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV PHEV,T_LDV_LTP_GSL_PHEV50_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV ZEV,T_LDV_LTP_GSL_PHEV50_N,T_D_pkm_ldv_t,Trucks (LDV),pkm,k units,gsl,elc,plug_in hyb,zev,new
+LDV,T_LDV_M_BEV_N,T_D_pkm_ldv_m,Motorcycle,pkm,k units,elc,NONE,BEV,zev,new
+LDV elc,T_LDV_M_BEV_N,T_D_pkm_ldv_m,Motorcycle,pkm,k units,elc,NONE,BEV,zev,new
+LDV ZEV,T_LDV_M_BEV_N,T_D_pkm_ldv_m,Motorcycle,pkm,k units,elc,NONE,BEV,zev,new
+Existing_LDV,T_LDV_M_GSL_EX,T_D_pkm_ldv_m,Motorcycle,pkm,k units,gsl,NONE,ice,non-zev,Existing
+LDV,T_LDV_M_GSL_N,T_D_pkm_ldv_m,Motorcycle,pkm,k units,gsl,NONE,ice,non-zev,new
+LDV ICE,T_LDV_M_GSL_N,T_D_pkm_ldv_m,Motorcycle,pkm,k units,gsl,NONE,ice,non-zev,new
+LDV N-ZEV,T_LDV_M_GSL_N,T_D_pkm_ldv_m,Motorcycle,pkm,k units,gsl,NONE,ice,non-zev,new
+MDV,T_MDV_T_BEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,elc,NONE,BEV,zev,new
+MDV elc,T_MDV_T_BEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,elc,NONE,BEV,zev,new
+MDV ZEV,T_MDV_T_BEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,elc,NONE,BEV,zev,new
+Existing_MDV,T_MDV_T_DSL_EX,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,NONE,ice,non-zev,Existing
+MDV,T_MDV_T_DSL_HEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,elc,hyb,non-zev,new
+MDV hyb,T_MDV_T_DSL_HEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,elc,hyb,non-zev,new
+MDV N-ZEV,T_MDV_T_DSL_HEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,elc,hyb,non-zev,new
+MDV,T_MDV_T_DSL_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,NONE,ice,non-zev,new
+MDV ICE,T_MDV_T_DSL_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,NONE,ice,non-zev,new
+MDV N-ZEV,T_MDV_T_DSL_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,NONE,ice,non-zev,new
+MDV,T_MDV_T_DSL_PHEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,elc,plug_in hyb,zev,new
+MDV PHEV,T_MDV_T_DSL_PHEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,elc,plug_in hyb,zev,new
+MDV ZEV,T_MDV_T_DSL_PHEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,dsl,elc,plug_in hyb,zev,new
+MDV,T_MDV_T_FCEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,h2,NONE,h2,zev,new
+MDV H2,T_MDV_T_FCEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,h2,NONE,h2,zev,new
+MDV ZEV,T_MDV_T_FCEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,h2,NONE,h2,zev,new
+MDV,T_MDV_T_FCHEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,h2,NONE,h2,zev,new
+MDV hyb,T_MDV_T_FCHEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,h2,NONE,h2,zev,new
+MDV N-ZEV,T_MDV_T_FCHEV_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,h2,NONE,h2,zev,new
+Existing_MDV,T_MDV_T_GSL_EX,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,gsl,NONE,ice,non-zev,Existing
+MDV,T_MDV_T_GSL_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,gsl,NONE,ice,non-zev,new
+MDV ICE,T_MDV_T_GSL_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,gsl,NONE,ice,non-zev,new
+MDV N-ZEV,T_MDV_T_GSL_N,T_D_tkm_mdv_t,Trucks (HDV &MDV),tkm,k units,gsl,NONE,ice,non-zev,new

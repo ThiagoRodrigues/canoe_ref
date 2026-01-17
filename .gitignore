@@ -1,0 +1,17 @@
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+
+# Model outputs
+output_files/
+outputs/
+results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/

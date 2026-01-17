@@ -1,0 +1,2 @@
+﻿region,emis_comm,input_comm,tech,vintage,output_comm,activity,units,notes,data_source,dq_cred,dq_geog,dq_struc,dq_tech,dq_time,data_id
+ON,co2e,F_ethos,F_IMP_CO,2020,F_co,11.6,ktCO2e/PJ,Upstream emissions (~70 kCO2e/bbl),,,,,,,FUELHRON001

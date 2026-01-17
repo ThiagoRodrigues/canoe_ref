@@ -1,0 +1,7 @@
+﻿region,period,tech,vintage,cost,units,notes,data_source,dq_cred,dq_geog,dq_struc,dq_tech,dq_time,data_id
+ON,2025,F_IMP_CO,2020,14.8,MCAD/PJ,,,,,,,,FUELHR002
+ON,2030,F_IMP_CO,2020,14.8,MCAD/PJ,,,,,,,,FUELHR003
+ON,2035,F_IMP_CO,2020,14.8,MCAD/PJ,,,,,,,,FUELHR004
+ON,2040,F_IMP_CO,2020,14.8,MCAD/PJ,,,,,,,,FUELHR005
+ON,2045,F_IMP_CO,2020,14.8,MCAD/PJ,,,,,,,,FUELHR006
+ON,2050,F_IMP_CO,2020,14.8,MCAD/PJ,,,,,,,,FUELHR007

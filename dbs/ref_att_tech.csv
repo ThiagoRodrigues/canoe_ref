@@ -1,0 +1,16 @@
+﻿attribute,value
+tech,I_REF_W
+flag,p
+sector,industrial
+category,fuel_producer
+sub_category,refinery
+unlim_cap,1
+annual,1
+reserve,0
+curtail,0
+retire,0
+flex,0
+exchange,0
+seas_stor,0
+description,Technology that represents refining process for the West of Canada
+data_id,INDRH001

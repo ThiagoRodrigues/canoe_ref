@@ -1,0 +1,3 @@
+﻿region,input_comm,tech,vintage,output_comm,efficiency,notes,data_source,dq_cred,dq_geog,dq_struc,dq_tech,dq_time,data_id
+ON,F_ethos,F_IMP_CO,2020,F_co,1,,,,,,,,FUELONHR001
+ON,F_co,F_I_CO,2020,I_co,1,,,,,,,,INDONHR001

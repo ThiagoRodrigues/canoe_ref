@@ -1,0 +1,14 @@
+﻿attribute,value,input_comm,input_description,input_flow,input_unit,output_comm,output_description,output_flow,output_unit,period,region
+tech,I_REF_W,I_elc,Electricity,400000,BTU/bbl,F_gsl,Gasoline,2500000,BTU/bbl,2025,ON
+flag,p,I_ng,Natural Gas,800000,BTU/bbl,F_dsl,Diesel,1000000,BTU/bbl,2030,AB
+sector,industrial,I_hfo,Heating Fuel Oil,300000,BTU/bbl,F_jtf,Jet Fuel,600000,BTU/bbl,2035,QC
+unlim_cap,1,I_pcoke,Petroleum Coke,100000,BTU/bbl,F_oil,Heating Oil,300000,BTU/bbl,2040,BC
+annual,1,I_ngl,Natural Gas Liquids,100000,BTU/bbl,F_hfo,Heavy Fuel Oil,200000,BTU/bbl,2045,
+reserve,0,I_co,Crude Oil (inherent),5600000,BTU/bbl,F_pcoke,Petroleum Coke,100000,BTU/bbl,2050,
+curtail,0,,,,,F_others,Others,200000,BTU/bbl,,
+retire,0,,,,,,,,,,
+flex,1,,,,,,,,,,
+exchange,0,,,,,,,,,,
+description,Technology that represents refining process for the West of Canada,,,,,,,,,,
+data_id,INDRH001,,,,,,,,,,
+vintage,2025,,,,,,,,,,
