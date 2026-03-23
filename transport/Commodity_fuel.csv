@@ -1,0 +1,5 @@
+﻿name,flag,description,data_id
+T_elc_dc,p,Electrolysis needs DC electricity,TRPHR001
+T_h2_10,a,Gaseous H2 @ 10 bar,TRPHR001
+T_h2_100,a,Gaseous H2 @ 100 bar,TRPHR001
+T_ng,a,Natural gas for the transportation sector,FUELHR001

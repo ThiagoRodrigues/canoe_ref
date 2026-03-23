@@ -5,12 +5,12 @@ T_D_pkm_hdv_bic,Bus
 T_D_pkm_hdv_bs,Bus
 T_D_pkm_hdv_bt,Bus
 T_D_pkm_hdv_r,Rail
-T_D_pkm_ldv_c,Cars
-T_D_pkm_ldv_m,Motorcyles
-T_D_pkm_ldv_t,Trucks
+T_D_pkm_ldv_c,Car
+T_D_pkm_ldv_m,Motorcycle
+T_D_pkm_ldv_t,Truck
 T_D_tkm_hdv_aj,Aircraft
 T_D_tkm_hdv_r,Rail
-T_D_tkm_hdv_t,HDV Trucks
-T_D_tkm_hdv_wt,Boats
-T_D_tkm_ldv_t,LDV Trucks
-T_D_tkm_mdv_t,MDV Trucks
+T_D_tkm_hdv_t,HDV Truck
+T_D_tkm_hdv_wt,Boat
+T_D_tkm_ldv_t,LDV Truck
+T_D_tkm_mdv_t,MDV Truck

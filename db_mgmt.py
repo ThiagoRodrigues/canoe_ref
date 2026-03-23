@@ -162,6 +162,8 @@ def sqlite_to_dfs(sqlite_file):
         conn.close()
 
 
+
+
 def update_sqlite(db_path, data_dict):
     conn = sqlite3.connect(db_path)
     for table_name, df in data_dict.items():
@@ -174,7 +176,7 @@ def insert_or_replace(df, table, conn):
     cols = df.columns.tolist()
     col_str = ",".join(cols)
     placeholders = ",".join(["?"] * len(cols))
-
+    print(f"Inserting into {table} with columns: {col_str}")
     sql = f"INSERT OR REPLACE INTO {table} ({col_str}) VALUES ({placeholders})"
 
     data = df.to_records(index=False).tolist()
@@ -182,8 +184,38 @@ def insert_or_replace(df, table, conn):
     conn.executemany(sql, data)
     conn.commit()
 
+def delete_zero_cost_rows(db_path, table, column, value=0):
+    try:
+        # 1. Connect to the database
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+
+        # 2. Execute the DELETE command
+        # Use a parameterized query for best practice, though not strictly 
+        # required for a hardcoded '0'
+        query = f'DELETE FROM {table} WHERE {column} = ?'
+        cursor.execute(query, (value,))
+
+        # 3. Commit the changes and report back
+        conn.commit()
+        print(f"Successfully deleted {cursor.rowcount} row(s) where {column} = {value}.")
+
+    except sqlite3.Error as e:
+        print(f"An error occurred: {e}")
+
+    finally:
+        # 4. Always close the connection
+        if conn:
+            conn.close()
+
+
+def main():
+    # # Example usage:
+    pass
+    # sql_file = '../data/canoe_dataset.sql'
+    # sqlite_file = '../data/canoe_dataset.sqlite'
+    # print('Converting SQL to SQLite...')
+    # convert_sql_to_sqlite(sql_file, sqlite_file)
 
 if __name__ == "__main__":
-    sqlite_file = 'dbs/canoe_on_12d_vanilla4_fuel_v3_1.sqlite'
-    excel_file = 'dbs/canoe_on_12d_vanilla4_fuel_v3_1.xlsx'
-    sqlite_to_excel(sqlite_file, excel_file)
+    main()

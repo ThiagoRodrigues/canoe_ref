@@ -1,0 +1,331 @@
+tech,flag,sector,category,sub_category,unlim_cap,annual,reserve,curtail,retire,flex,exchange,seas_stor,description,data_id
+A_AGRI,p,agriculture,,,1,1,0,0,0,0,0,0,Generic technology representing Agriculture,AGRIHR001
+C_SPH_OIL-EXS,p,commercial,,,0,1,0,0,0,0,0,0,space heating oil - existing,COMHR001
+C_SPH_NG-EXS,p,commercial,,,0,1,0,0,0,0,0,0,space heating natural gas - existing,COMHR001
+C_SPH_ELC-EXS,p,commercial,,,0,1,0,0,0,0,0,0,space heating electric - existing,COMHR001
+C_SPC_ELC-EXS,p,commercial,,,0,1,0,0,0,0,0,0,space cooling electric - existing,COMHR001
+C_OTHER,p,commercial,,,1,1,0,0,0,0,0,0,other all other commercial energy demand,COMHR001
+C_SPHC_HP_AIR-NEW,p,commercial,,,0,1,0,0,0,0,0,0,space cooling air-source heat pump typical efficiency - new,COMHR001
+C_SPHC_HP_GEO-NEW,p,commercial,,,0,1,0,0,0,0,0,0,space cooling geo-exchange heat pump typical efficiency - new,COMHR001
+C_SPH_ELC_BLR-NEW,p,commercial,,,0,1,0,0,0,0,0,0,space heating electric boiler - new,COMHR001
+C_SPH_ELC_RES-NEW,p,commercial,,,0,1,0,0,0,0,0,0,space heating electric resistance heating - new,COMHR001
+C_SPH_NG_FRN-NEW,p,commercial,,,0,1,0,0,0,0,0,0,space heating gas furnace - new,COMHR001
+C_SPC_AC_ROOF-NEW,p,commercial,,,0,1,0,0,0,0,0,0,space cooling rooftop air-conditioning - new,COMHR001
+E_ELC_TX_to_DX,p,electricity,,,1,0,0,0,0,0,0,0,transmission-side electricity to distribution-side electricity,ELCHR001
+E_ELC_DX_to_DEM,p,electricity,,,1,0,0,0,0,0,0,0,distribution-side electricity to demand-side electricity,ELCHR001
+E_GSL_CT-EXS,p,electricity,,,0,0,1,0,0,0,0,0,gasoline combustion turbine generation - Stephenville - existing,ELCHR001
+E_OIL_ST-EXS,p,electricity,,,0,0,1,0,0,0,0,0,oil steam turbine generation - Holyrood - existing,ELCHR001
+E_OIL_CT-EXS,p,electricity,,,0,0,1,0,0,0,0,0,oil combustion turbine generation - Victoria Junction - Victoria Junction - existing,ELCHR001
+E_NUC_CANDU-EXS,pb,electricity,,,0,0,1,0,0,0,0,0,nuclear candu generation - Darlington - existing,ELCHR001
+E_DSL_CT-EXS,p,electricity,,,0,0,1,0,0,0,0,0,diesel combustion turbine generation - Combustion Turbine #3 - existing,ELCHR001
+E_HYD_MLY-EXS,ps,electricity,,,0,0,1,0,0,0,0,1,hydroelectric generation with monthly reservoir storage - Bersimis 1 - Brisay - Eastmain 1 - Eastmain 1-A - Hart-Jaune - Laforge 1 - La Grande 1 - La Grande 2 - La Grande 3 - La Grande 4 - La Grande 2A - Manic 5A - Manic 5 - Mercier - Outardes 4 - Romaine 2 - Romaine 3 - Romaine 4 - Rapide 7 - Rapide-Blanc - Sainte-Marguerite 3 - Toulnustouc - existing,ELCHR001
+E_HYD_ROR-EXS,p,electricity,,,0,0,1,1,0,0,0,0,hydroelectric run-of-river generation - AbÃ©naquis - Ayers 1 - Ayers 2 - Beauharnois - BÃ©sy - Belding - Belleterre - Bird - Belle-RiviÃ¨re Hydro - Bryson - Buckingham - Chute-aux-Galets - Chute-Allard - Chute Blanche - Chute-Bell - Chute-Burroughs - Chute-des-Chats - Courbe-du-Sault - Chute Garneau - Chutes-Ã -Gorry - Chute-Hemmings - Chelsea - Chute Ã  Magnan - Chutes de la ChaudiÃ¨re - Chute du Quatre Milles - CÃ´te Ste-Catherine - Chute du Six Milles - Dufferin - Donnacona - Drummondville - East Angus - Elkam Metal - Franquelinâ€“Chutes-Ã -Thompson - Forestville - Frontenac - Grande-Dame - Glenford - Grand-MÃ¨re - Hydro-Fraser - High Falls - Hydro-Canyon Saint-Joachim - Hydraska - Jean GuÃ©rin - JonquiÃ¨re 1 - Joey-Tanenbaum - La Gabelle - Larocque - Lebreux - Les CÃ¨dres - LefranÃ§ois - La Sarre 1 - La Tuque - McDougall - Magpie - Mistassini - Mont-Laurier - MemphrÃ©magog - Montmagny - Manouane Sipi - Marches Naturelles - Maquatua - Minashtuk - Masson - Mitis 1 - Mitis 2 - Pont Arnaud - Petites Bergeronnes - Portneuf I - Portneuf II - Portneuf III - PÃ©ribonka - PentecÃ´te - Paton - Rapides-des-CÃ¨dres - RiviÃ¨re-du-Loup - RiviÃ¨re-des-Prairies - Rock Forest - Rocher-de-Grand-MÃ¨re - Rimouski - Rapide 2 - Rapide-des-CÅ“urs - Rapides-Farmers - RSP I - RSP II - RSP III - Rawdon - St-Alban - Ste-Brigitte - Sept-Chutes - St-Lambert - Sainte-Margeurite 1-1A - Saint-Narcisse - St-RaphaÃ«l - Thibaudeau-Ricard - Val-Jalbert - Weedon - Windsor - Winston - WR Beatty - Westbury - existing,ELCHR001
+E_BIO_G-EXS,pb,electricity,,,0,0,1,0,0,0,0,0,biogas generation - NRGreen Alameda Heat Recovery Facility - NRGreen Estlin Heat Recovery Facility - NRGreen Loreburn Heat Recovery Facility - existing,ELCHR001
+E_BIO_M-EXS,p,electricity,,,0,0,1,0,0,0,0,0,biomass generation - MLTC Bioenergy Centre - existing,ELCHR001
+E_COAL-EXS,p,electricity,,,0,0,1,0,0,0,0,0,coal generation - Boundary Dam - existing,ELCHR001
+E_COAL_CCS-EXS,p,electricity,,,0,0,1,0,0,0,0,0,coal generation with 95% ccs - Boundary Dam - existing,ELCHR001
+E_HYD_DLY-EXS,p,electricity,,,0,0,1,0,0,0,0,0,hydroelectric generation with daily reservoir storage - Coteau Creek - Coteau Creek - Coteau Creek - EB Campbell - EB Campbell - EB Campbell - EB Campbell - EB Campbell - EB Campbell - EB Campbell - EB Campbell - Nipawin - Nipawin - Nipawin - existing,ELCHR001
+E_NG_CC-EXS,p,electricity,,,0,0,1,0,0,0,0,0,natural gas combined cycle generation - Chinook - existing,ELCHR001
+E_NG_CG-EXS,p,electricity,,,0,0,1,0,0,0,0,0,natural gas heat and power cogeneration - Cory - Cory - Cory - existing,ELCHR001
+E_NG_CT-EXS,p,electricity,,,0,0,1,0,0,0,0,0,natural gas combustion turbine generation - North Battleford - existing,ELCHR001
+E_SOL_PV-EXS,p,electricity,,,0,0,1,1,0,0,0,0,utility-scale solar photovoltaic generation - Foxtail Grove - existing,ELCHR001
+E_WND_ON-EXS,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - Bekevar - existing,ELCHR001
+E_HYD_MLY-EXS-IN,pb,electricity,,,0,0,0,0,0,0,0,0,inflow to reservoir for monthly hydroelectric generation,ELCHR001
+E_BAT_3H-EXS,ps,electricity,,,0,0,0,0,0,0,0,0,utility-scale lithium-ion battery storage with 3-hour capacity - Kitchener - existing,ELCHR001
+E_BAT_4H-EXS,ps,electricity,,,0,0,0,0,0,0,0,0,utility-scale lithium-ion battery storage with 4-hour capacity - AM-Energy Storage 1 - AM Energy Storage 2 - Elmira - Parry - existing,ELCHR001
+E_BAT_5H-EXS,ps,electricity,,,0,0,0,0,0,0,0,0,utility-scale lithium-ion battery storage with 5-hour capacity - Stratford - existing,ELCHR001
+E_PUMP_4H-EXS,ps,electricity,,,0,0,0,0,0,0,0,0,hydroelectric pumped storage with 6-hour capacity - Beck Pump - existing,ELCHR001
+E_BAT_2H-EXS,ps,electricity,,,0,0,0,0,0,0,0,0,utility-scale lithium-ion battery storage with 2-hour capacity - Slemon Park Storage - Summerside Storage - existing,ELCHR001
+E_BAT_1H-EXS,ps,electricity,,,0,0,0,0,0,0,0,0,utility-scale lithium-ion battery storage with 1-hour capacity - Fleet Street - existing,ELCHR001
+E_BIO_M-NEW,p,electricity,,,0,0,1,0,0,0,0,0,biomass generation - new,ELCHR001
+E_NG_CC-NEW,p,electricity,,,0,0,1,0,0,0,0,0,natural gas combined cycle generation - new,ELCHR001
+E_NG_CCS-NEW,p,electricity,,,0,0,1,0,0,0,0,0,natural gas combined cycle generation with 95% ccs - new,ELCHR001
+E_NG_CT-NEW,p,electricity,,,0,0,1,0,0,0,0,0,natural gas combustion turbine generation - new,ELCHR001
+E_NUC_PWR-NEW,pb,electricity,,,0,0,1,0,0,0,0,0,nuclear pressurised water reactor generation - new,ELCHR001
+E_NUC_SMR-NEW,pb,electricity,,,0,0,1,0,0,0,0,0,nuclear small modular reactor generation - new,ELCHR001
+E_SOL_PV-NEW-1,p,electricity,,,0,0,1,1,0,0,0,0,utility-scale solar photovoltaic generation - new,ELCHR001
+E_SOL_PV-NEW-2,p,electricity,,,0,0,1,1,0,0,0,0,utility-scale solar photovoltaic generation - new,ELCHR001
+E_SOL_PV-NEW-3,p,electricity,,,0,0,1,1,0,0,0,0,utility-scale solar photovoltaic generation - new,ELCHR001
+E_SOL_PV-NEW-4,p,electricity,,,0,0,1,1,0,0,0,0,utility-scale solar photovoltaic generation - new,ELCHR001
+E_SOL_PV-NEW-5,p,electricity,,,0,0,1,1,0,0,0,0,utility-scale solar photovoltaic generation - new,ELCHR001
+E_WND_ON-NEW-1,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-2,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-3,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-4,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-5,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-6,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-7,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-8,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-9,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-10,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-11,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-12,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_WND_ON-NEW-13,p,electricity,,,0,0,1,1,0,0,0,0,onshore wind generation - new,ELCHR001
+E_BAT_2H-NEW,ps,electricity,,,0,0,0,0,0,0,0,0,utility-scale lithium-ion battery storage with 2-hour capacity - new,ELCHR001
+E_BAT_4H-NEW,ps,electricity,,,0,0,0,0,0,0,0,0,utility-scale lithium-ion battery storage with 4-hour capacity - new,ELCHR001
+E_COAL_CCS_RFIT_90,p,electricity,,,0,0,0,0,0,0,0,0,90% ccs retrofit for coal generation,ELCHR001
+E_COAL_RFIT_BYPASS,p,electricity,,,1,0,0,0,0,0,0,0,dummy bypass for ccs retrofit,ELCHR001
+E_COAL_CCS_RFIT_95,p,electricity,,,0,0,0,0,0,0,0,0,95% ccs retrofit for coal generation,ELCHR001
+E_NG_CCS_RFIT_90,p,electricity,,,0,0,0,0,0,0,0,0,90% ccs retrofit for natural gas combined cycle generation,ELCHR001
+E_NG_CC_RFIT_BYPASS,p,electricity,,,1,0,0,0,0,0,0,0,dummy bypass for ccs retrofit,ELCHR001
+E_NG_CCS_RFIT_95,p,electricity,,,0,0,0,0,0,0,0,0,95% ccs retrofit for natural gas combustion turbine generation,ELCHR001
+E_INT,p,electricity,,,0,0,0,0,0,0,1,0,endogenous inter-regional intertie,ELCHR001
+E_INT_IN-USA,p,electricity,,,0,0,0,1,0,0,0,0,boundary intertie entering the model - treated as a variable generator - USA into AB,ELCHRBINTABUSA001
+E_INT_OUT-USA,p,electricity,,,1,1,0,0,0,0,0,0,boundary intertie leaving the model - treated as a demand - BC out to USA,ELCHRBINTBCUSA001
+F_E_BIO_G,p,electricity,,,1,1,0,0,0,0,0,0,Gaseous bioenergy distribution from fuel sector to electric power sector,FUELHR001
+F_E_BIO_M,p,electricity,,,1,1,0,0,0,0,0,0,Solid bioenergy distribution from fuel sector to electric power sector,FUELHR001
+F_E_NG,p,electricity,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to electric power sector,FUELHR001
+F_E_COAL,p,electricity,,,1,1,0,0,0,0,0,0,Coal distribution from fuel sector to electric power sector,FUELHR001
+F_E_OIL,p,electricity,,,1,1,0,0,0,0,0,0,Oil distribution from fuel sector to electric power sector,FUELHR001
+F_E_DSL,p,electricity,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to electric power sector,FUELHR001
+F_E_U_NAT,p,electricity,,,1,1,0,0,0,0,0,0,Natural uranium distribution from fuel sector to electric power sector,FUELHR001
+F_E_U_ENR,p,electricity,,,1,1,0,0,0,0,0,0,Enriched uranium distribution from fuel sector to electric power sector,FUELHR001
+F_E_GSL,p,electricity,,,1,1,0,0,0,0,0,0,Gasoline distribution from fuel sector to electric power sector,FUELHR001
+F_R_OIL,p,residential,,,1,1,0,0,0,0,0,0,Oil distribution from fuel sector to residential sector,FUELHR001
+F_R_NG,p,residential,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to residential sector,FUELHR001
+E_R_ELC,p,residential,,,1,0,0,0,0,0,0,0,Electricity distribution to residential sector,FUELHR001
+F_R_LPG,p,residential,,,1,1,0,0,0,0,0,0,Liquefied petroleum gas (lpg) (primarily propane) distribution from fuel sector to residential sector,FUELHR001
+F_R_WOOD,p,residential,,,1,1,0,0,0,0,0,0,Wood distribution from fuel sector to residential sector,FUELHR001
+F_C_OIL,p,commercial,,,1,1,0,0,0,0,0,0,Oil distribution from fuel sector to commercial sector,FUELHR001
+F_C_NG,p,commercial,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to commercial sector,FUELHR001
+E_C_ELC,p,commercial,,,1,0,0,0,0,0,0,0,Electricity distribution to commercial sector,FUELHR001
+E_I_ELC,p,industrial,,,1,0,0,0,0,0,0,0,Electricity distribution to industrial sector,FUELHR001
+F_I_NG,p,industrial,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to industrial sector,FUELHR001
+F_I_HFO,p,industrial,,,1,1,0,0,0,0,0,0,Heavy fuel oil distribution from fuel sector to industrial sector,FUELHR001
+E_T_ELC,p,transportation,,,1,0,0,0,0,0,0,0,Electricity distribution to transportation sector,FUELHR001
+F_T_H2,p,transportation,,,1,1,0,0,0,0,0,0,Hydrogen distribution from fuel sector to transportation sector,FUELHR001
+F_T_NG,p,transportation,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to transportation sector,FUELHR001
+F_T_HFO,p,transportation,,,1,1,0,0,0,0,0,0,Heavy fuel oil distribution from fuel sector to transportation sector,FUELHR001
+F_T_GSL,p,transportation,,,1,1,0,0,0,0,0,0,Gasoline distribution from fuel sector to transportation sector,FUELHR001
+F_I_COAL,p,industrial,,,1,1,0,0,0,0,0,0,Coal distribution from fuel sector to industrial sector,FUELHR001
+F_I_DSL,p,industrial,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to industrial sector,FUELHR001
+F_I_NGL,p,industrial,,,1,1,0,0,0,0,0,0,Natural gas liquids distribution from fuel sector to industrial sector,FUELHR001
+F_I_OTH,p,industrial,,,1,1,0,0,0,0,0,0,Other fuels distribution from fuel sector to industrial sector,FUELHR001
+F_I_PCOKE,p,industrial,,,1,1,0,0,0,0,0,0,Petroleum coke distribution from fuel sector to industrial sector,FUELHR001
+F_I_WOOD,p,industrial,,,1,1,0,0,0,0,0,0,Wood distribution from fuel sector to industrial sector,FUELHR001
+F_I_COKE,p,industrial,,,1,1,0,0,0,0,0,0,Coke distribution from fuel sector to industrial sector,FUELHR001
+F_T_ETH,p,transportation,,,1,1,0,0,0,0,0,0,Ethanol distribution from fuel sector to transportation sector,FUELHR001
+F_T_DSL,p,transportation,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to transportation sector,FUELHR001
+F_T_RDSL,p,transportation,,,1,1,0,0,0,0,0,0,Renewable diesel distribution from fuel sector to transportation sector,FUELHR001
+F_T_CNG,p,transportation,,,1,1,0,0,0,0,0,0,Compressed natural gas distribution from fuel sector to transportation sector,FUELHR001
+F_T_JTF,p,transportation,,,1,1,0,0,0,0,0,0,Jet fuel distribution from fuel sector to transportation sector,FUELHR001
+F_T_SPK,p,transportation,,,1,1,0,0,0,0,0,0,Synthetic jet fuel distribution from fuel sector to transportation sector,FUELHR001
+F_T_MDO,p,transportation,,,1,1,0,0,0,0,0,0,Marine diesel oil distribution from fuel sector to transportation sector,FUELHR001
+F_T_LNG,p,transportation,,,1,1,0,0,0,0,0,0,Liquefied natural gas distribution from fuel sector to transportation sector,FUELHR001
+F_A_NG,p,agriculture,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to agriculture sector,FUELHR001
+E_A_ELC,p,agriculture,,,1,0,0,0,0,0,0,0,Electricity distribution to agriculture sector,FUELHR001
+F_A_DSL,p,agriculture,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to agriculture sector,FUELHR001
+F_A_GSL,p,agriculture,,,1,1,0,0,0,0,0,0,Gasoline distribution from fuel sector to agriculture sector,FUELHR001
+F_IMP_BIO_G,p,fuel,,,1,1,0,0,0,0,0,0,Gaseous bioenergy import into fuel sector,FUELHR001
+F_IMP_BIO_M,p,fuel,,,1,1,0,0,0,0,0,0,Solid bioenergy import into fuel sector,FUELHR001
+F_IMP_CNG,p,fuel,,,1,1,0,0,0,0,0,0,Compressed natural gas import into fuel sector,FUELHR001
+F_IMP_COAL,p,fuel,,,1,1,0,0,0,0,0,0,Coal import into fuel sector,FUELHR001
+F_IMP_COKE,p,fuel,,,1,1,0,0,0,0,0,0,Coke import into fuel sector,FUELHR001
+F_IMP_DSL,p,fuel,,,1,1,0,0,0,0,0,0,Diesel import into fuel sector,FUELHR001
+F_IMP_ETH,p,fuel,,,1,1,0,0,0,0,0,0,Ethanol import into fuel sector,FUELHR001
+F_IMP_GSL,p,fuel,,,1,1,0,0,0,0,0,0,Gasoline import into fuel sector,FUELHR001
+F_IMP_H2,p,fuel,,,1,1,0,0,0,0,0,0,Hydrogen import into fuel sector,FUELHR001
+F_IMP_HFO,p,fuel,,,1,1,0,0,0,0,0,0,Heavy fuel oil import into fuel sector,FUELHR001
+F_IMP_JTF,p,fuel,,,1,1,0,0,0,0,0,0,Jet fuel import into fuel sector,FUELHR001
+F_IMP_LNG,p,fuel,,,1,1,0,0,0,0,0,0,Liquefied natural gas import into fuel sector,FUELHR001
+F_IMP_LPG,p,fuel,,,1,1,0,0,0,0,0,0,Liquefied petroleum gas (lpg) (primarily propane) import into fuel sector,FUELHR001
+F_IMP_MDO,p,fuel,,,1,1,0,0,0,0,0,0,Marine diesel oil import into fuel sector,FUELHR001
+F_IMP_NG,p,fuel,,,1,1,0,0,0,0,0,0,Natural gas import into fuel sector,FUELHR001
+F_IMP_NGL,p,fuel,,,1,1,0,0,0,0,0,0,Natural gas liquids import into fuel sector,FUELHR001
+F_IMP_OIL,p,fuel,,,1,1,0,0,0,0,0,0,Oil import into fuel sector,FUELHR001
+F_IMP_OTH,p,fuel,,,1,1,0,0,0,0,0,0,Other fuels import into fuel sector,FUELHR001
+F_IMP_PCOKE,p,fuel,,,1,1,0,0,0,0,0,0,Petroleum coke import into fuel sector,FUELHR001
+F_IMP_RDSL,p,fuel,,,1,1,0,0,0,0,0,0,Renewable diesel import into fuel sector,FUELHR001
+F_IMP_SPK,p,fuel,,,1,1,0,0,0,0,0,0,Synthetic jet fuel import into fuel sector,FUELHR001
+F_IMP_U_ENR,p,fuel,,,1,1,0,0,0,0,0,0,Enriched uranium import into fuel sector,FUELHR001
+F_IMP_U_NAT,p,fuel,,,1,1,0,0,0,0,0,0,Natural uranium import into fuel sector,FUELHR001
+F_IMP_WOOD,p,fuel,,,1,1,0,0,0,0,0,0,Wood import into fuel sector,FUELHR001
+I_CON,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Construction industry,INDHR001
+I_PULP,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Pulp and paper industry,INDHR001
+I_SMELT,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Smelting industry,INDHR001
+I_REFINING,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Petroleum refining industry,INDHR001
+I_CEMENT,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Cement industry,INDHR001
+I_CHEM,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Chemical industry,INDHR001
+I_STEEL,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Iron and Steel industry,INDHR001
+I_OTH_MAN,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Other manufacturing industry,INDHR001
+I_FOR,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Forestry industry,INDHR001
+I_MINING,p,industrial,,,1,1,0,0,0,0,0,0,Generic technology representing Mining and Oil & Gas extraction industry,INDHR001
+R_APP_CL_WASH-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,appliances clothes washers - top loader washing machine typical efficiency - new,RESHR001
+R_APP_DS_WASH-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,appliances dish washers - dish washer typical efficiency - new,RESHR001
+R_APP_COOK_ELEC-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,appliances cooking ranges - electric cooking range typical efficiency - new,RESHR001
+R_APP_DRY_ELEC-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,appliances clothes dryers - electric dryer typical efficiency - new,RESHR001
+R_APP_FREZ-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,appliances freezers - freezer typical efficiency - new,RESHR001
+R_APP_COOK_NG-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,appliances cooking ranges - natural gas cooking range typical efficiency - new,RESHR001
+R_APP_DRY_NG-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,appliances clothes dryers - natural gas dryer typical efficiency - new,RESHR001
+R_APP_REFR-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,appliances refrigerators - refrigerator with bottom-mounted freezer typical efficiency - new,RESHR001
+R_SPC_CENT_AC-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,space cooling - central air conditioner typical efficiency - new,RESHR001
+R_SPC_ROOM_AC-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,space cooling - room air conditioner typical efficiency - new,RESHR001
+R_SPH_ELEC_RAD-NEW,p,residential,,,0,1,0,0,0,0,0,0,space heating - electric radiator typical efficiency - new,RESHR001
+R_SPH_NG_FRN-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,space heating - natural gas furnace typical efficiency - new,RESHR001
+R_SPH_WOOD-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,space heating - wood stove typical efficiency - new,RESHR001
+R_SPHC_AIR_HP-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,space heating+space cooling - air-source heat pump typical efficiency - new,RESHR001
+R_SPHC_GEO_HP-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,space heating+space cooling - geo-exchange heat pump typical efficiency - new,RESHR001
+R_SPHC_NG_HP-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,space heating+space cooling - natural gas heat pump typical efficiency - new,RESHR001
+R_WAH_ELEC-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,water heating - electric typical efficiency - new,RESHR001
+R_WAH_HP-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,water heating - heat pump typical efficiency - new,RESHR001
+R_WAH_NG-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,water heating - natural gas typical efficiency - new,RESHR001
+R_WAH_SOLAR-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,water heating - solar typical efficiency - new,RESHR001
+R_SPH_OIL-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - oil - existing,RESHR001
+R_SPH_NG-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - natural gas - existing,RESHR001
+R_SPH_ELEC-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - electric - existing,RESHR001
+R_SPH_HP-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - heat pump - existing,RESHR001
+R_SPH_OTH-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - other (LPG) - existing,RESHR001
+R_SPH_WOOD-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - wood - existing,RESHR001
+R_SPH_WOOD-ELC-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - dual wood-electric - existing,RESHR001
+R_SPH_WOOD-OIL-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - dual wood-oil - existing,RESHR001
+R_SPH_NG-ELC-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - dual natural gas-electric - existing,RESHR001
+R_SPH_OIL-ELC-EXS,p,residential,,,0,1,0,0,0,0,0,0,space heating - dual oil-electric - existing,RESHR001
+R_SPC_ROOM_AC-EXS,p,residential,,,0,1,0,0,0,0,0,0,space cooling - room air conditioning - existing,RESHR001
+R_SPC_CENT_AC-EXS,p,residential,,,0,1,0,0,0,0,0,0,space cooling - central air conditioning - existing,RESHR001
+R_WAH_ELC-EXS,p,residential,,,0,1,0,0,0,0,0,0,water heating - electric - existing,RESHR001
+R_WAH_NG-EXS,p,residential,,,0,1,0,0,0,0,0,0,water heating - natural gas - existing,RESHR001
+R_WAH_OIL-EXS,p,residential,,,0,1,0,0,0,0,0,0,water heating - oil - existing,RESHR001
+R_WAH_LPG-EXS,p,residential,,,0,1,0,0,0,0,0,0,water heating - other (LPG) - existing,RESHR001
+R_APP_CL_WASH-EXS,p,residential,,,0,1,0,0,0,0,0,0,appliances clothes washers - clothes washers - existing,RESHR001
+R_APP_DS_WASH-EXS,p,residential,,,0,1,0,0,0,0,0,0,appliances dish washers - dish washers - existing,RESHR001
+R_APP_COOK_ELEC-EXS,p,residential,,,0,1,0,0,0,0,0,0,appliances cooking ranges - electric cooking ranges - existing,RESHR001
+R_APP_DRY_ELEC-EXS,p,residential,,,0,1,0,0,0,0,0,0,appliances clothes dryers - electric clothes dryers - existing,RESHR001
+R_APP_FREZ-EXS,p,residential,,,0,1,0,0,0,0,0,0,appliances freezers - freezers - existing,RESHR001
+R_APP_REFR-EXS,p,residential,,,0,1,0,0,0,0,0,0,appliances refrigerators - refrigerators - existing,RESHR001
+R_APP_COOK_NG-EXS,p,residential,,,0,1,0,0,0,0,0,0,appliances cooking ranges - natural gas cooking ranges - existing,RESHR001
+R_APP_DRY_NG-EXS,p,residential,,,0,1,0,0,0,0,0,0,appliances clothes dryers - natural gas clothes dryers - existing,RESHR001
+R_APP_OTH,p,residential,,,1,1,0,0,0,0,0,0,appliances other - other electrical appliances and devices,RESHR001
+R_LGT_CFL-EXS,p,residential,,,0,1,0,0,0,0,0,0,lighting - compact fluorescent,RESHR001
+R_LGT_LED-EXS,p,residential,,,0,1,0,0,0,0,0,0,lighting - led,RESHR001
+R_LGT_T12-EXS,p,residential,,,0,1,0,0,0,0,0,0,lighting - linear fluorescent,RESHR001
+R_LGT_LED-TYP-NEW,p,residential,,,0,1,0,0,0,0,0,0,lighting - new led bulb (60W inc-equiv) typical efficiency,RESHR001
+T_BLND_DSL_ELC_HDV,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR001
+T_BLND_DSL_ELC_MDV,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR001
+T_BLND_ETH_GSL,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR001
+T_BLND_GSL_ELC_PHEV35,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR001
+T_BLND_GSL_ELC_PHEV50,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR001
+T_BLND_JTF,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR001
+T_BLND_RDSL_DSL,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR001
+T_BLND_SPK,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR001
+T_H2_HDV_REFUEL,p,transportation,H2 refuelling,,0,1,0,0,0,0,0,0,,TRPHR001
+T_H2_LDV_REFUEL,p,transportation,H2 refuelling,,0,1,0,0,0,0,0,0,,TRPHR001
+T_H2_MDV_REFUEL,p,transportation,H2 refuelling,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_AJF_JFL_EX,p,transportation,Air freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_AJF_JFL_N,p,transportation,Air freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_AJF_SPK_N,p,transportation,Air freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_AJP_JFL_EX,p,transportation,Air travel,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_AJP_JFL_N,p,transportation,Air travel,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_AJP_SPK_N,p,transportation,Air travel,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BIC_BEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BIC_DSL_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BIC_DSL_HEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BIC_DSL_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BIC_FCEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BIC_GSL_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BIC_GSL_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_BEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_CNG_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_CNG_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_DSL_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_DSL_HEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_DSL_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_DSL_PHEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_FCEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_FCHEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_GSL_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BS_GSL_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_BEV_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_BEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_CNG_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_CNG_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_DSL_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_DSL_HEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_DSL_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_DSL_PHEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_FCEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_FCHEV_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_GSL_EX,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_BT_GSL_N,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_CHRG,p,transportation,Charging,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_RF_DSL_EX,p,transportation,Rail freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_RF_DSL_N,p,transportation,Rail freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_RF_H2_N,p,transportation,Rail freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_RF_LNG_N,p,transportation,Rail freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_RICP_DSL_EX,p,transportation,Rail travel,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_RICP_DSL_N,p,transportation,Rail travel,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_RICP_H2_N,p,transportation,Rail travel,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_T_BEV_N,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_T_DSL_EX,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_T_DSL_HEV_N,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_T_DSL_N,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_T_DSL_PHEV_N,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_T_FCEV_N,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_T_FCHEV_N,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_WTF_HFO_EX,p,transportation,Marine freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_WTF_HFO_N,p,transportation,Marine freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_WTF_LNG_N,p,transportation,Marine freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_WTF_MDO_EX,p,transportation,Marine freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_HDV_WTF_MDO_N,p,transportation,Marine freight,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_BEV_CHRG,p,transportation,Charging,,0,0,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_BEV150_EX,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_BEV150_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_BEV200_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_BEV300_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_BEV400_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_CNG_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_DSL_EX,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_DSL_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_FCEV400_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_GSL_EX,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_GSL_HEV_EX,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_GSL_HEV_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_GSL_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_GSL_PHEV35_EX,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_GSL_PHEV35_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_C_GSL_PHEV50_N,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_BEV150_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_BEV200_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_BEV300_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_BEV400_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_CNG_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_DSL_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_DSL_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_FCEV400_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_GSL_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_GSL_HEV_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_GSL_HEV_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_GSL_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_GSL_PHEV35_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_GSL_PHEV35_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTF_GSL_PHEV50_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_BEV150_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_BEV200_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_BEV300_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_BEV300_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_BEV400_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_CNG_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_DSL_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_DSL_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_FCEV400_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_GSL_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_GSL_HEV_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_GSL_HEV_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_GSL_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_GSL_PHEV35_EX,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_GSL_PHEV35_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_LTP_GSL_PHEV50_N,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_M_BEV_N,p,transportation,Motorcycles,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_M_GSL_EX,p,transportation,Motorcycles,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_M_GSL_N,p,transportation,Motorcycles,,0,1,0,0,0,0,0,0,,TRPHR001
+T_LDV_PHEV_CHRG,p,transportation,Charging,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_CHRG,p,transportation,Charging,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_BEV_N,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_DSL_EX,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_DSL_HEV_N,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_DSL_N,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_DSL_PHEV_N,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_FCEV_N,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_FCHEV_N,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_GSL_EX,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_MDV_T_GSL_N,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR001
+T_OFF,p,transportation,Offroad,,1,1,0,0,0,0,0,0,,TRPHR001

@@ -1,0 +1,9 @@
+source_id,source,notes,data_id
+F4,"Government of Canada, Emission factors and reference values",The appropriate emission factors for sector and fuel are converted to tonnes or ktonnes per PJ,FUELHR001
+F5,IPCC AR6,"Used for the GWP100 values for methane, carbon dioxide and nitrous oxide for calculating CO2eq",FUELHR001
+T03,"DeCarolis, J. F., Jaramillo, P., Johnson, J. X., McCollum, D. L., Trutnevyte, E., Daniels, D. C., Akn-Olcum, G., Bergerson, J., Cho, S., Choi, J.-H., Craig, M. T., de Queiroz, A. R., Eshraghi, H., Galik, C. S., Gutowski, T. G., Haapala, K. R., Hodge, B.-",,TRPHR001
+T06,IEA. (2024). Global Hydrogen Review 2024  Assumptions annex. https://www.iea.org/reports/global-hydrogen-review-2024,,TRPHR001
+T12,"Dept. for Business, Energy & Industrial Strategy. (2021). Hydrogen production costs 2021. UK Government. https://www.gov.uk/government/publications/hydrogen-production-costs-2021",,TRPHR001
+T17,"Natural Resources Canada. (2023b). Transportation Sector  Ontario. Government of Canada, Natural Resources Canada. https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/menus/trends/comprehensive/trends_tran_on.cfm",,TRPHR001
+T23,"Plazas Nino, F., Yeganyan, R., Cannone, C., Howells, M., Borba, B., & Quiros-Tortos, J. (2023). Techno-Economic Energy Dataset for Hydrogen Pathways Modelling. 1. https://doi.org/10.17632/8ztnn4br66.1",,TRPHR001
+T24,"DeCarolis, J. F., Jaramillo, P., Johnson, J. X., McCollum, D. L., Trutnevyte, E., Daniels, D. C., Akn-Olcum, G., Bergerson, J., Cho, S., Choi, J.-H., Craig, M. T., de Queiroz, A. R., Eshraghi, H., Galik, C. S., Gutowski, T. G., Haapala, K. R., Hodge, B.-M., Hoque, S., Jenkins, J. D., ... Zhou, Y. (2020). Open Energy OutlookLeveraging Open-Source Tools for Collaborative Macro-energy System Modeling Efforts. Joule, 4(12), 25232526. https://doi.org/10.1016/j.joule.2020.11.002",,TRPHR001

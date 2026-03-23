@@ -1,0 +1,115 @@
+tech,fuel_type
+T_HDV_AJF_JFL_EX,Jet Fuel
+T_HDV_AJF_JFL_N,Jet Fuel
+T_HDV_AJF_SPK_N,Jet Fuel
+T_HDV_AJP_JFL_EX,Jet Fuel
+T_HDV_AJP_JFL_N,Jet Fuel
+T_HDV_AJP_SPK_N,Jet Fuel
+T_HDV_BIC_BEV_N,Electricity
+T_HDV_BIC_DSL_EX,Diesel
+T_HDV_BIC_DSL_HEV_N,Hyb
+T_HDV_BIC_DSL_N,Diesel
+T_HDV_BIC_FCEV_N,Hydrogen
+T_HDV_BIC_GSL_EX,Gasoline
+T_HDV_BIC_GSL_N,Gasoline
+T_HDV_BS_BEV_N,Electricity
+T_HDV_BS_CNG_EX,Natural Gas
+T_HDV_BS_CNG_N,Natural Gas
+T_HDV_BS_DSL_EX,Diesel
+T_HDV_BS_DSL_HEV_N,Hyb
+T_HDV_BS_DSL_N,Diesel
+T_HDV_BS_DSL_PHEV_N,Plug in Hyb
+T_HDV_BS_FCEV_N,Hydrogen
+T_HDV_BS_FCHEV_N,Hydrogen
+T_HDV_BS_GSL_EX,Gasoline
+T_HDV_BS_GSL_N,Gasoline
+T_HDV_BT_BEV_EX,Electricity
+T_HDV_BT_BEV_N,Electricity
+T_HDV_BT_CNG_EX,Natural Gas
+T_HDV_BT_CNG_N,Natural Gas
+T_HDV_BT_DSL_EX,Diesel
+T_HDV_BT_DSL_HEV_N,Hyb
+T_HDV_BT_DSL_N,Diesel
+T_HDV_BT_DSL_PHEV_N,Plug in Hyb
+T_HDV_BT_FCEV_N,Hydrogen
+T_HDV_BT_FCHEV_N,Hydrogen
+T_HDV_BT_GSL_EX,Gasoline
+T_HDV_BT_GSL_N,Gasoline
+T_HDV_RF_DSL_EX,Diesel
+T_HDV_RF_DSL_N,Diesel
+T_HDV_RF_H2_N,Hydrogen
+T_HDV_RF_LNG_N,Natural Gas
+T_HDV_RICP_DSL_EX,Diesel
+T_HDV_RICP_DSL_N,Diesel
+T_HDV_RICP_H2_N,Hydrogen
+T_HDV_T_BEV_N,Electricity
+T_HDV_T_DSL_EX,Diesel
+T_HDV_T_DSL_HEV_N,Hyb
+T_HDV_T_DSL_N,Diesel
+T_HDV_T_DSL_PHEV_N,Plug in Hyb
+T_HDV_T_FCEV_N,Hydrogen
+T_HDV_T_FCHEV_N,Hydrogen
+T_HDV_WTF_HFO_EX,Marine Fuel
+T_HDV_WTF_HFO_N,Marine Fuel
+T_HDV_WTF_LNG_N,Natural Gas
+T_HDV_WTF_MDO_EX,Marine Fuel
+T_HDV_WTF_MDO_N,Marine Fuel
+T_LDV_C_BEV150_EX,Electricity
+T_LDV_C_BEV150_N,Electricity
+T_LDV_C_BEV200_N,Electricity
+T_LDV_C_BEV300_N,Electricity
+T_LDV_C_BEV400_N,Electricity
+T_LDV_C_CNG_N,Natural Gas
+T_LDV_C_DSL_EX,Diesel
+T_LDV_C_DSL_N,Diesel
+T_LDV_C_FCEV400_N,Hydrogen
+T_LDV_C_GSL_EX,Gasoline
+T_LDV_C_GSL_HEV_EX,Hyb
+T_LDV_C_GSL_HEV_N,Hyb
+T_LDV_C_GSL_N,Gasoline
+T_LDV_C_GSL_PHEV35_EX,Plug in Hyb
+T_LDV_C_GSL_PHEV35_N,Plug in Hyb
+T_LDV_C_GSL_PHEV50_N,Plug in Hyb
+T_LDV_LTF_BEV150_N,Electricity
+T_LDV_LTF_BEV200_N,Electricity
+T_LDV_LTF_BEV300_N,Electricity
+T_LDV_LTF_BEV400_N,Electricity
+T_LDV_LTF_CNG_N,Natural Gas
+T_LDV_LTF_DSL_EX,Diesel
+T_LDV_LTF_DSL_N,Diesel
+T_LDV_LTF_FCEV400_N,Hydrogen
+T_LDV_LTF_GSL_EX,Gasoline
+T_LDV_LTF_GSL_HEV_EX,Hyb
+T_LDV_LTF_GSL_HEV_N,Hyb
+T_LDV_LTF_GSL_N,Gasoline
+T_LDV_LTF_GSL_PHEV35_EX,Plug in Hyb
+T_LDV_LTF_GSL_PHEV35_N,Plug in Hyb
+T_LDV_LTF_GSL_PHEV50_N,Plug in Hyb
+T_LDV_LTP_BEV150_N,Electricity
+T_LDV_LTP_BEV200_N,Electricity
+T_LDV_LTP_BEV300_EX,Electricity
+T_LDV_LTP_BEV300_N,Electricity
+T_LDV_LTP_BEV400_N,Electricity
+T_LDV_LTP_CNG_N,Natural Gas
+T_LDV_LTP_DSL_EX,Diesel
+T_LDV_LTP_DSL_N,Diesel
+T_LDV_LTP_FCEV400_N,Hydrogen
+T_LDV_LTP_GSL_EX,Gasoline
+T_LDV_LTP_GSL_HEV_EX,Hyb
+T_LDV_LTP_GSL_HEV_N,Hyb
+T_LDV_LTP_GSL_N,Gasoline
+T_LDV_LTP_GSL_PHEV35_EX,Plug in Hyb
+T_LDV_LTP_GSL_PHEV35_N,Plug in Hyb
+T_LDV_LTP_GSL_PHEV50_N,Plug in Hyb
+T_LDV_M_BEV_N,Electricity
+T_LDV_M_GSL_EX,Gasoline
+T_LDV_M_GSL_N,Gasoline
+T_MDV_T_BEV_N,Electricity
+T_MDV_T_DSL_EX,Diesel
+T_MDV_T_DSL_HEV_N,Hyb
+T_MDV_T_DSL_N,Diesel
+T_MDV_T_DSL_PHEV_N,Plug in Hyb
+T_MDV_T_FCEV_N,Hydrogen
+T_MDV_T_FCHEV_N,Hydrogen
+T_MDV_T_GSL_EX,Gasoline
+T_MDV_T_GSL_N,Gasoline

@@ -1,0 +1,22 @@
+tech,flag,sector,category,sub_category,unlim_cap,annual,reserve,curtail,retire,flex,exchange,seas_stor,description,data_id
+E_T_ELC,p,transportation,,,1,0,0,0,0,0,0,0,Electricity distribution to transportation sector,FUELHR001
+F_T_H2,p,transportation,,,1,1,0,0,0,0,0,0,Hydrogen distribution from fuel sector to transportation sector,FUELHR001
+F_T_NG,p,transportation,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to transportation sector,FUELHR001
+F_T_HFO,p,transportation,,,1,1,0,0,0,0,0,0,Heavy fuel oil distribution from fuel sector to transportation sector,FUELHR001
+F_T_GSL,p,transportation,,,1,1,0,0,0,0,0,0,Gasoline distribution from fuel sector to transportation sector,FUELHR001
+F_T_ETH,p,transportation,,,1,1,0,0,0,0,0,0,Ethanol distribution from fuel sector to transportation sector,FUELHR001
+F_T_DSL,p,transportation,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to transportation sector,FUELHR001
+F_T_RDSL,p,transportation,,,1,1,0,0,0,0,0,0,Renewable diesel distribution from fuel sector to transportation sector,FUELHR001
+F_T_CNG,p,transportation,,,1,1,0,0,0,0,0,0,Compressed natural gas distribution from fuel sector to transportation sector,FUELHR001
+F_T_JTF,p,transportation,,,1,1,0,0,0,0,0,0,Jet fuel distribution from fuel sector to transportation sector,FUELHR001
+F_T_SPK,p,transportation,,,1,1,0,0,0,0,0,0,Synthetic jet fuel distribution from fuel sector to transportation sector,FUELHR001
+F_T_MDO,p,transportation,,,1,1,0,0,0,0,0,0,Marine diesel oil distribution from fuel sector to transportation sector,FUELHR001
+F_T_LNG,p,transportation,,,1,1,0,0,0,0,0,0,Liquefied natural gas distribution from fuel sector to transportation sector,FUELHR001
+T_ELC_AC_DC,p,transportation,Fuel supply,,0,0,0,0,0,0,0,0,,TRPHR001
+T_H2_COMP_10_100,p,transportation,Fuel supply,,0,1,0,0,0,0,0,0,,TRPHR001
+T_H2_COMP_100_700,p,transportation,Fuel supply,,0,1,0,0,0,0,0,0,,TRPHR001
+T_H2_distribution,p,transportation,Fuel supply,,1,1,0,0,0,0,0,0,,TRPHR001
+T_I_H2_ELC_ALK,p,transportation,Fuel supply,,0,0,0,0,0,0,0,0,,TRPHR001
+T_I_H2_ELC_PEM,p,transportation,Fuel supply,,0,0,0,0,0,0,0,0,,TRPHR001
+T_I_H2_SMR,p,transportation,Fuel supply,,0,1,0,0,0,0,0,0,,TRPHR001
+T_I_H2_SMR_CCS,p,transportation,Fuel supply,,0,1,0,0,0,0,0,0,,TRPHR001

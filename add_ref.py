@@ -3,14 +3,17 @@ import sqlite3
 import shutil
 import db_mgmt as mgmt
 
-def add_refinery_to_db(db_core, db_path):
+def add_refinery_to_db(db_core, db_path, regions='all'):
     print('\nAdding Refinery to Database...\n')
 
     print('Loading refinery data from CSV files...')
     period = pd.read_csv('dbs/ref_att_period.csv').period.to_list()
     output = pd.read_csv('dbs/ref_att_output.csv')
     input = pd.read_csv('dbs/ref_att_input.csv')
-    region = pd.read_csv('dbs/ref_att_region.csv').region.to_list()
+    if regions == 'all':
+        region = pd.read_csv('dbs/ref_att_region.csv').region.to_list()
+    else:
+        region = regions
     tech = pd.read_csv('dbs/ref_att_tech.csv')
 
     print('Processing refinery data...')
@@ -41,6 +44,7 @@ def add_refinery_to_db(db_core, db_path):
     }
 
     for reg in region: 
+        print(regions, reg)
         for input_comm in inflow.keys():
             for output_comm in outflow.keys():
                 Efficiency['efficiency'].append(outflow[output_comm]/inflow[input_comm])
@@ -162,7 +166,8 @@ def add_refinery_to_db(db_core, db_path):
     crude['CostVariable'] = pd.read_csv('dbs/crude_oil_costvariable.csv') 
     crude['EmissionActivity'] = pd.read_csv('dbs/crude_oil_emissionactivity.csv')
     print('Combining refinery and crude oil data...')
-    
+
+
     Efficiency = pd.concat([Efficiency, crude['Efficiency']], ignore_index=True)
     Technology = pd.concat([Technology, crude['Technology']], ignore_index=True)
 

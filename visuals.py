@@ -3,6 +3,7 @@ from __future__ import annotations
 import pandas as pd
 import seaborn.objects as so
 from seaborn import axes_style
+import matplotlib.pyplot as plt
 
 # -----------------------------
 # Constants (module-level = shared by all functions in this file)
@@ -158,8 +159,8 @@ def area_plot(
             .scale(color=palette)
             .theme(theme)
             .layout(engine="tight")
+            #.limit(x=(2025, 2050))
         )
-
 
         return fig
 
