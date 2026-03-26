@@ -1,0 +1,80 @@
+tech,flag,sector,category,sub_category,unlim_cap,annual,reserve,curtail,retire,flex,exchange,seas_stor,description,data_id
+F_E_BIO_G,p,electricity,,,1,1,0,0,0,0,0,0,Gaseous bioenergy distribution from fuel sector to electric power sector,FUELHR002
+F_E_BIO_M,p,electricity,,,1,1,0,0,0,0,0,0,Solid bioenergy distribution from fuel sector to electric power sector,FUELHR002
+F_E_NG,p,electricity,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to electric power sector,FUELHR002
+F_E_COAL,p,electricity,,,1,1,0,0,0,0,0,0,Coal distribution from fuel sector to electric power sector,FUELHR002
+F_E_OIL,p,electricity,,,1,1,0,0,0,0,0,0,Oil distribution from fuel sector to electric power sector,FUELHR002
+F_E_DSL,p,electricity,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to electric power sector,FUELHR002
+F_E_U_NAT,p,electricity,,,1,1,0,0,0,0,0,0,Natural uranium distribution from fuel sector to electric power sector,FUELHR002
+F_E_U_ENR,p,electricity,,,1,1,0,0,0,0,0,0,Enriched uranium distribution from fuel sector to electric power sector,FUELHR002
+F_E_GSL,p,electricity,,,1,1,0,0,0,0,0,0,Gasoline distribution from fuel sector to electric power sector,FUELHR002
+F_R_OIL,p,residential,,,1,1,0,0,0,0,0,0,Oil distribution from fuel sector to residential sector,FUELHR002
+F_R_NG,p,residential,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to residential sector,FUELHR002
+E_R_ELC,p,residential,,,1,0,0,0,0,0,0,0,Electricity distribution to residential sector,FUELHR002
+F_R_LPG,p,residential,,,1,1,0,0,0,0,0,0,Liquefied petroleum gas (lpg) (primarily propane) distribution from fuel sector to residential sector,FUELHR002
+F_R_WOOD,p,residential,,,1,1,0,0,0,0,0,0,Wood distribution from fuel sector to residential sector,FUELHR002
+F_C_OIL,p,commercial,,,1,1,0,0,0,0,0,0,Oil distribution from fuel sector to commercial sector,FUELHR002
+F_C_NG,p,commercial,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to commercial sector,FUELHR002
+E_C_ELC,p,commercial,,,1,0,0,0,0,0,0,0,Electricity distribution to commercial sector,FUELHR002
+F_C_BIO,p,commercial,,,1,1,0,0,0,0,0,0, bioenergy distribution from fuel sector to commercial sector,FUELHR002
+F_C_H2,p,commercial,,,1,1,0,0,0,0,0,0,Hydrogen distribution from fuel sector to commercial sector,FUELHR002
+F_I_BIO,p,industrial,,,1,1,0,0,0,0,0,0, bioenergy distribution from fuel sector to industrial sector,FUELHR002
+E_I_ELC,p,industrial,,,1,0,0,0,0,0,0,0,Electricity distribution to industrial sector,FUELHR002
+F_I_H2,p,industrial,,,1,1,0,0,0,0,0,0,Hydrogen distribution from fuel sector to industrial sector,FUELHR002
+F_I_NG,p,industrial,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to industrial sector,FUELHR002
+F_I_HFO,p,industrial,,,1,1,0,0,0,0,0,0,Heavy fuel oil distribution from fuel sector to industrial sector,FUELHR002
+F_R_BIO,p,residential,,,1,1,0,0,0,0,0,0, bioenergy distribution from fuel sector to residential sector,FUELHR002
+F_R_H2,p,residential,,,1,1,0,0,0,0,0,0,Hydrogen distribution from fuel sector to residential sector,FUELHR002
+F_T_BIO,p,transportation,,,1,1,0,0,0,0,0,0, bioenergy distribution from fuel sector to transportation sector,FUELHR002
+E_T_ELC,p,transportation,,,1,0,0,0,0,0,0,0,Electricity distribution to transportation sector,FUELHR002
+F_T_H2,p,transportation,,,1,1,0,0,0,0,0,0,Hydrogen distribution from fuel sector to transportation sector,FUELHR002
+F_T_NG,p,transportation,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to transportation sector,FUELHR002
+F_T_HFO,p,transportation,,,1,1,0,0,0,0,0,0,Heavy fuel oil distribution from fuel sector to transportation sector,FUELHR002
+F_T_LPG,p,transportation,,,1,1,0,0,0,0,0,0,Liquefied petroleum gas (lpg) (primarily propane) distribution from fuel sector to transportation sector,FUELHR002
+F_T_GSL,p,transportation,,,1,1,0,0,0,0,0,0,Gasoline distribution from fuel sector to transportation sector,FUELHR002
+F_I_COAL,p,industrial,,,1,1,0,0,0,0,0,0,Coal distribution from fuel sector to industrial sector,FUELHR002
+F_I_DSL,p,industrial,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to industrial sector,FUELHR002
+F_I_NGL,p,industrial,,,1,1,0,0,0,0,0,0,Natural gas liquids distribution from fuel sector to industrial sector,FUELHR002
+F_I_OTH,p,industrial,,,1,1,0,0,0,0,0,0,Other fuels distribution from fuel sector to industrial sector,FUELHR002
+F_I_PCOKE,p,industrial,,,1,1,0,0,0,0,0,0,Petroleum coke distribution from fuel sector to industrial sector,FUELHR002
+F_I_WOOD,p,industrial,,,1,1,0,0,0,0,0,0,Wood distribution from fuel sector to industrial sector,FUELHR002
+F_I_COKE,p,industrial,,,1,1,0,0,0,0,0,0,Coke distribution from fuel sector to industrial sector,FUELHR002
+F_T_ETH,p,transportation,,,1,1,0,0,0,0,0,0,Ethanol distribution from fuel sector to transportation sector,FUELHR002
+F_T_DSL,p,transportation,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to transportation sector,FUELHR002
+F_T_RDSL,p,transportation,,,1,1,0,0,0,0,0,0,Renewable diesel distribution from fuel sector to transportation sector,FUELHR002
+F_T_CNG,p,transportation,,,1,1,0,0,0,0,0,0,Compressed natural gas distribution from fuel sector to transportation sector,FUELHR002
+F_T_JTF,p,transportation,,,1,1,0,0,0,0,0,0,Jet fuel distribution from fuel sector to transportation sector,FUELHR002
+F_T_SPK,p,transportation,,,1,1,0,0,0,0,0,0,Synthetic jet fuel distribution from fuel sector to transportation sector,FUELHR002
+F_T_MDO,p,transportation,,,1,1,0,0,0,0,0,0,Marine diesel oil distribution from fuel sector to transportation sector,FUELHR002
+F_T_LNG,p,transportation,,,1,1,0,0,0,0,0,0,Liquefied natural gas distribution from fuel sector to transportation sector,FUELHR002
+F_A_NG,p,agriculture,,,1,1,0,0,0,0,0,0,Natural gas distribution from fuel sector to agriculture sector,FUELHR002
+E_A_ELC,p,agriculture,,,1,0,0,0,0,0,0,0,Electricity distribution to agriculture sector,FUELHR002
+F_A_DSL,p,agriculture,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to agriculture sector,FUELHR002
+F_A_PROP,p,agriculture,,,1,1,0,0,0,0,0,0,Propane distribution from fuel sector to agriculture sector,FUELHR002
+F_A_GSL,p,agriculture,,,1,1,0,0,0,0,0,0,Gasoline distribution from fuel sector to agriculture sector,FUELHR002
+F_IMP_BIO,p,fuel,,,1,1,0,0,0,0,0,0, bioenergy import into fuel sector,FUELHR002
+F_IMP_BIO_G,p,fuel,,,1,1,0,0,0,0,0,0,Gaseous bioenergy import into fuel sector,FUELHR002
+F_IMP_BIO_M,p,fuel,,,1,1,0,0,0,0,0,0,Solid bioenergy import into fuel sector,FUELHR002
+F_IMP_CNG,p,fuel,,,1,1,0,0,0,0,0,0,Compressed natural gas import into fuel sector,FUELHR002
+F_IMP_COAL,p,fuel,,,1,1,0,0,0,0,0,0,Coal import into fuel sector,FUELHR002
+F_IMP_COKE,p,fuel,,,1,1,0,0,0,0,0,0,Coke import into fuel sector,FUELHR002
+F_IMP_DSL,p,fuel,,,1,1,0,0,0,0,0,0,Diesel import into fuel sector,FUELHR002
+F_IMP_ETH,p,fuel,,,1,1,0,0,0,0,0,0,Ethanol import into fuel sector,FUELHR002
+F_IMP_GSL,p,fuel,,,1,1,0,0,0,0,0,0,Gasoline import into fuel sector,FUELHR002
+F_IMP_H2,p,fuel,,,1,1,0,0,0,0,0,0,Hydrogen import into fuel sector,FUELHR002
+F_IMP_HFO,p,fuel,,,1,1,0,0,0,0,0,0,Heavy fuel oil import into fuel sector,FUELHR002
+F_IMP_JTF,p,fuel,,,1,1,0,0,0,0,0,0,Jet fuel import into fuel sector,FUELHR002
+F_IMP_LNG,p,fuel,,,1,1,0,0,0,0,0,0,Liquefied natural gas import into fuel sector,FUELHR002
+F_IMP_LPG,p,fuel,,,1,1,0,0,0,0,0,0,Liquefied petroleum gas (lpg) (primarily propane) import into fuel sector,FUELHR002
+F_IMP_MDO,p,fuel,,,1,1,0,0,0,0,0,0,Marine diesel oil import into fuel sector,FUELHR002
+F_IMP_NG,p,fuel,,,1,1,0,0,0,0,0,0,Natural gas import into fuel sector,FUELHR002
+F_IMP_NGL,p,fuel,,,1,1,0,0,0,0,0,0,Natural gas liquids import into fuel sector,FUELHR002
+F_IMP_OIL,p,fuel,,,1,1,0,0,0,0,0,0,Oil import into fuel sector,FUELHR002
+F_IMP_OTH,p,fuel,,,1,1,0,0,0,0,0,0,Other fuels import into fuel sector,FUELHR002
+F_IMP_PCOKE,p,fuel,,,1,1,0,0,0,0,0,0,Petroleum coke import into fuel sector,FUELHR002
+F_IMP_PROP,p,fuel,,,1,1,0,0,0,0,0,0,Propane import into fuel sector,FUELHR002
+F_IMP_RDSL,p,fuel,,,1,1,0,0,0,0,0,0,Renewable diesel import into fuel sector,FUELHR002
+F_IMP_SPK,p,fuel,,,1,1,0,0,0,0,0,0,Synthetic jet fuel import into fuel sector,FUELHR002
+F_IMP_U_ENR,p,fuel,,,1,1,0,0,0,0,0,0,Enriched uranium import into fuel sector,FUELHR002
+F_IMP_U_NAT,p,fuel,,,1,1,0,0,0,0,0,0,Natural uranium import into fuel sector,FUELHR002
+F_IMP_WOOD,p,fuel,,,1,1,0,0,0,0,0,0,Wood import into fuel sector,FUELHR002

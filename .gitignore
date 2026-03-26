@@ -9,6 +9,10 @@ output_files/
 outputs/
 results/
 
+echo "dbs/" >> .gitignore
+echo "*.7z" >> .gitignore
+echo "*.xlsx" >> .gitignore
+
 # Python
 __pycache__/
 *.pyc

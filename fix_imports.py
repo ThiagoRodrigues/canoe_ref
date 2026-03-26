@@ -15,6 +15,8 @@ def fix_imports(db_path: str) -> None:
         & ~cvar["tech"].str.contains("DV_", na=False)
         & (cvar["tech"] != "F_IMP_CO")
     )
+
+
     cvar["new_tech"] = cvar["tech"]
     cvar.loc[mask_import, "new_tech"] = (
         cvar.loc[mask_import, "tech"].str.slice(0, 2)
@@ -50,9 +52,10 @@ def fix_imports(db_path: str) -> None:
 
     # 3) Process duplicate groups
     dup["min_cost"] = dup.groupby(key_cols)["cost"].transform("min")
+    
     dup["delta_cost"] = dup["cost"] - dup["min_cost"]
-
-    delta_rows = dup.copy()# .loc[dup["delta_cost"] != 0].copy()
+    print(dup)
+    delta_rows = dup# .loc[dup["delta_cost"] != 0].copy()
     delta_rows["cost"] = delta_rows["delta_cost"]
     
     
