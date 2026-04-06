@@ -1,0 +1,48 @@
+name,flag,description,data_id
+T_elc,p,Electricity for the transportation sector,FUELHR001
+T_h2,a,Hydrogen for the transportation sector,FUELHR001
+T_ng,a,Natural gas for the transportation sector,FUELHR001
+T_hfo,a,Heavy fuel oil for the transportation sector,FUELHR001
+T_gsl,a,Gasoline for the transportation sector,FUELHR001
+T_eth,a,Ethanol for the transportation sector,FUELHR001
+T_dsl,a,Diesel for the transportation sector,FUELHR001
+T_rdsl,a,Renewable diesel for the transportation sector,FUELHR001
+T_cng,a,Compressed natural gas for the transportation sector,FUELHR001
+T_jtf,a,Jet fuel for the transportation sector,FUELHR001
+T_spk,a,Synthetic jet fuel for the transportation sector,FUELHR001
+T_mdo,a,Marine diesel oil for the transportation sector,FUELHR001
+T_lng,a,Liquefied natural gas for the transportation sector,FUELHR001
+T_D_pj_off,d,Demand for PJ by off-road vehicles,TRPHR001
+T_D_pkm_hdv_aj,d,Demand for total passenger-kilometers by jet aircrafts,TRPHR001
+T_D_pkm_hdv_bic,d,Demand for total passenger-kilometers driven by inter-city buses,TRPHR001
+T_D_pkm_hdv_bs,d,Demand for total passenger-kilometers driven by school and employee buses,TRPHR001
+T_D_pkm_hdv_bt,d,Demand for total passenger-kilometers driven by urban transit buses,TRPHR001
+T_D_pkm_hdv_r,d,Demand for total passenger-kilometers by inter-city and urban transit rails,TRPHR001
+T_D_pkm_ldv_c,d,Demand for total passenger-kilometers driven by cars,TRPHR001
+T_D_pkm_ldv_m,d,Demand for total passenger-kilometers driven by motorcycles,TRPHR001
+T_D_pkm_ldv_t,d,Demand for total passenger-kilometers driven by light-duty passenger trucks,TRPHR001
+T_D_tkm_hdv_aj,d,Demand for total tonne-kilometers by jet aircrafts,TRPHR001
+T_D_tkm_hdv_r,d,Demand for total tonne-kilometers by freight rails,TRPHR001
+T_D_tkm_hdv_t,d,Demand for total tonne-kilometers driven by heavy-duty trucks,TRPHR001
+T_D_tkm_hdv_wt,d,Demand for total tonne-kilometers by marine vessels,TRPHR001
+T_D_tkm_ldv_t,d,Demand for total tonne-kilometers driven by light-duty freight trucks,TRPHR001
+T_D_tkm_mdv_t,d,Demand for total tonne-kilometers driven by medium-duty trucks,TRPHR001
+T_dsl_elc_hdv,a,Diesel and electricity for plug-in hybrid vehicles (heavy-duty class),TRPHR001
+T_dsl_elc_mdv,a,Diesel and electricity for plug-in hybrid vehicles (medium-duty class),TRPHR001
+T_dsl_rdsl04,a,Diesel with 4% renewable diesel ,TRPHR001
+T_elc_dc,p,Electrolysis needs DC electricity,TRPHR001
+T_elc_hdv_chrg,a,Electricity from heavy-duty EV charger,TRPHR001
+T_elc_ldv_bev_chrg,a,Electricity from light-duty BEV charger,TRPHR001
+T_elc_ldv_phev_chrg,a,Electricity from light-duty PHEV charger,TRPHR001
+T_elc_mdv_chrg,a,Electricity from medium-duty EV charger,TRPHR001
+T_gsl_elc_phev35,a,Gasoline and electricity for plug-in hybrid vehicles (35-mile CD range ratio),TRPHR001
+T_gsl_elc_phev50,a,Gasoline and electricity for plug-in hybrid vehicles (50-mile CD range ratio),TRPHR001
+T_gsl_eth10,a,Gasoline with at least 10% ethanol ,TRPHR001
+T_h2_10,a,Gaseous H2 @ 10 bar,TRPHR001
+T_h2_100,a,Gaseous H2 @ 100 bar,TRPHR001
+T_h2_700,a,Gaseous H2 @ 700 bar,TRPHR001
+T_h2_hdv,a,Gaseous H2 @ 700 bar for use in heavy-duty vehicles,TRPHR001
+T_h2_ldv,a,Gaseous H2 @ 700 bar for use in light-duty vehicles,TRPHR001
+T_h2_mdv,a,Gaseous H2 @ 700 bar for use in medium-duty vehicles,TRPHR001
+T_jtf_spk50,a,Conventional jet fuel with 50% HEFA SPK ,TRPHR001
+T_jtf_spkX,a,"Conv. jet fuel, after potential blending with renewable jet fuel ",TRPHR001

@@ -16,14 +16,12 @@ import survival_curve as sc
 import db_mgmt as mgmt
 import remove_h2 as rh
 
-
-
 main_path = os.path.join('temoa/', "main.py")
 config_path = 'temoa/data_files/my_configs/config_sample.toml'
 
-db_path = 'dbs/canoe_hr_4d.sqlite'
+db_path = 'dbs/canoe_hr_16d.sqlite'
 
-output_dir = f'outputs/CANOE_{datetime.now().strftime("%Y%m%d_%H%M%S")}'
+output_dir = f'outputs/CANOE_{datetime.now().strftime("%Y%m%d_%H_%M")}'
 
 print('\nUpdating Database Paths in Configuration File...\n')
 update_db_paths(config_path, db_path, False) 

@@ -55,7 +55,7 @@ def fix_imports(db_path: str) -> None:
     
     dup["delta_cost"] = dup["cost"] - dup["min_cost"]
     print(dup)
-    delta_rows = dup# .loc[dup["delta_cost"] != 0].copy()
+    delta_rows = dup.loc[dup["delta_cost"] != 0].copy()
     delta_rows["cost"] = delta_rows["delta_cost"]
     
     
