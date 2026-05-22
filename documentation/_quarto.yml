@@ -1,0 +1,16 @@
+project:
+  type: default
+
+editor: visual  # Or 'source' if you prefer the code view
+render:
+  render-on-save: false
+
+metadata:
+  jupyter: python3
+
+env:
+  QUARTO_PYTHON: ".venv/bin/python"
+
+execute:
+  daemon: false
+  keep-ipynb: false

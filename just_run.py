@@ -19,7 +19,7 @@ import remove_h2 as rh
 main_path = os.path.join('temoa/', "main.py")
 config_path = 'temoa/data_files/my_configs/config_sample.toml'
 
-db_path = 'dbs/canoe_hr_16d.sqlite'
+db_path = 'dbs/canoe_hr_h2_16d.sqlite'
 
 output_dir = f'outputs/CANOE_{datetime.now().strftime("%Y%m%d_%H_%M")}'
 

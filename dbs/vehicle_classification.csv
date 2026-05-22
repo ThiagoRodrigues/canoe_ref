@@ -1,0 +1,110 @@
+tech,flag,sector,category,sub_category,unlim_cap,annual,reserve,curtail,retire,flex,exchange,seas_stor,description,data_id
+E_T_ELC,p,transportation,,,1,0,0,0,0,0,0,0,Electricity distribution to transportation sector,FUELHR002
+F_T_H2,p,transportation,,,1,1,0,0,0,0,0,0,Hydrogen distribution from fuel sector to transportation sector,FUELHR002
+F_T_HFO,p,transportation,,,1,1,0,0,0,0,0,0,Heavy fuel oil distribution from fuel sector to transportation sector,FUELHR002
+F_T_GSL,p,transportation,,,1,1,0,0,0,0,0,0,Gasoline distribution from fuel sector to transportation sector,FUELHR002
+F_T_ETH,p,transportation,,,1,1,0,0,0,0,0,0,Ethanol distribution from fuel sector to transportation sector,FUELHR002
+F_T_DSL,p,transportation,,,1,1,0,0,0,0,0,0,Diesel distribution from fuel sector to transportation sector,FUELHR002
+F_T_RDSL,p,transportation,,,1,1,0,0,0,0,0,0,Renewable diesel distribution from fuel sector to transportation sector,FUELHR002
+F_T_CNG,p,transportation,,,1,1,0,0,0,0,0,0,Compressed natural gas distribution from fuel sector to transportation sector,FUELHR002
+F_T_JTF,p,transportation,,,1,1,0,0,0,0,0,0,Jet fuel distribution from fuel sector to transportation sector,FUELHR002
+F_T_SPK,p,transportation,,,1,1,0,0,0,0,0,0,Synthetic jet fuel distribution from fuel sector to transportation sector,FUELHR002
+F_T_MDO,p,transportation,,,1,1,0,0,0,0,0,0,Marine diesel oil distribution from fuel sector to transportation sector,FUELHR002
+F_T_LNG,p,transportation,,,1,1,0,0,0,0,0,0,Liquefied natural gas distribution from fuel sector to transportation sector,FUELHR002
+T_BLND_DSL_ELC_HDV,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR002
+T_BLND_DSL_ELC_MDV,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR002
+T_BLND_ETH_GSL,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR002
+T_BLND_GSL_ELC_PHEV35,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR002
+T_BLND_GSL_ELC_PHEV50,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR002
+T_BLND_JTF,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR002
+T_BLND_RDSL_DSL,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR002
+T_BLND_SPK,p,transportation,Blending,,1,1,0,0,0,0,0,0,,TRPHR002
+T_H2_HDV_REFUEL,p,transportation,H2 refuelling,,0,1,0,0,0,0,0,0,,TRPHR002
+T_H2_LDV_REFUEL,p,transportation,H2 refuelling,,0,1,0,0,0,0,0,0,,TRPHR002
+T_H2_MDV_REFUEL,p,transportation,H2 refuelling,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_AJF_JFL,p,transportation,Air freight,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_AJF_SPK,p,transportation,Air freight,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_AJP_JFL,p,transportation,Air travel,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_AJP_SPK,p,transportation,Air travel,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BIC_BEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BIC_DSL,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BIC_DSL_HEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BIC_FCEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BIC_GSL,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BS_BEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BS_CNG,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BS_DSL,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BS_DSL_HEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BS_DSL_PHEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BS_FCEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BS_FCHEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BS_GSL,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BT_BEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BT_CNG,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BT_DSL,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BT_DSL_HEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BT_DSL_PHEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BT_FCEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BT_FCHEV,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_BT_GSL,p,transportation,Bus,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_CHRG,p,transportation,Charging,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_RF_DSL,p,transportation,Rail freight,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_RF_H2,p,transportation,Rail freight,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_RF_LNG,p,transportation,Rail freight,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_RICP_DSL,p,transportation,Rail travel,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_RICP_H2,p,transportation,Rail travel,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_T_BEV,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_T_DSL,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_T_DSL_HEV,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_T_DSL_PHEV,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_T_FCEV,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_T_FCHEV,p,transportation,Heavy trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_WTF_HFO,p,transportation,Marine freight,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_WTF_LNG,p,transportation,Marine freight,,0,1,0,0,0,0,0,0,,TRPHR002
+T_HDV_WTF_MDO,p,transportation,Marine freight,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_BEV_CHRG,p,transportation,Charging,,0,0,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_BEV150,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_BEV200,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_BEV300,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_BEV400,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_CNG,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_DSL,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_FCEV400,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_GSL,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_GSL_HEV,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_GSL_PHEV35,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_C_GSL_PHEV50,p,transportation,Cars,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_BEV150,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_BEV200,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_BEV300,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_BEV400,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_CNG,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_DSL,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_FCEV400,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_GSL,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_GSL_HEV,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_GSL_PHEV35,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTF_GSL_PHEV50,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_BEV150,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_BEV200,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_BEV300,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_BEV400,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_CNG,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_DSL,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_FCEV400,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_GSL,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_GSL_HEV,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_GSL_PHEV35,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_LTP_GSL_PHEV50,p,transportation,Light trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_M_BEV,p,transportation,Motorcycles,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_M_GSL,p,transportation,Motorcycles,,0,1,0,0,0,0,0,0,,TRPHR002
+T_LDV_PHEV_CHRG,p,transportation,Charging,,0,1,0,0,0,0,0,0,,TRPHR002
+T_MDV_CHRG,p,transportation,Charging,,0,1,0,0,0,0,0,0,,TRPHR002
+T_MDV_T_BEV,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_MDV_T_DSL,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_MDV_T_DSL_HEV,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_MDV_T_DSL_PHEV,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_MDV_T_FCEV,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_MDV_T_FCHEV,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_MDV_T_GSL,p,transportation,Medium trucks,,0,1,0,0,0,0,0,0,,TRPHR002
+T_OFF,p,transportation,Offroad,,1,1,0,0,0,0,0,0,,TRPHR002

@@ -1,0 +1,31 @@
+---
+title: "Output Report"
+engine: jupyter
+execute:
+  daemon: 60
+  dir: ..
+---
+
+Importing necessary libraries and modules for data manipulation, visualization, and database management.
+
+
+```{python}
+import os
+import pandas as pd
+import numpy as np 
+import matplotlib.pyplot as plt
+import seaborn as sns
+import sqlite3
+import sys
+sys.path.append(os.path.abspath(os.path.join('..')))
+import db_mgmt as mgmt
+```
+
+
+Loading dataset with results from latest run of the CANOE model.
+
+```{python}
+# Load dataset
+data = mgmt.sqlite_to_dfs('../outputs/canoe_report/canoe_hr_16d.sqlite')
+```
+
